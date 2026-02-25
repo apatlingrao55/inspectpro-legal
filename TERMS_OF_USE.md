@@ -124,7 +124,7 @@ These Terms, together with our Privacy Policy, constitute the entire agreement b
 
 If you have questions about these Terms, please contact us at:
 
-**Email**: support-approjects@pm.me
+**Email**: dev@aiconsult.co.nz
 
 ---
 

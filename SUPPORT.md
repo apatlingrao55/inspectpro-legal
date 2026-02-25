@@ -4,7 +4,7 @@
 
 For questions, bug reports, or feature requests, reach out to us at:
 
-**Email**: support-approjects@pm.me
+**Email**: dev@aiconsult.co.nz
 
 ## Frequently Asked Questions
 

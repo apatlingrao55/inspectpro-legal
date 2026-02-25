@@ -74,7 +74,7 @@ This EULA, together with our Terms of Use and Privacy Policy, constitutes the en
 
 If you have questions about this EULA, please contact us at:
 
-**Email**: support-approjects@pm.me
+**Email**: dev@aiconsult.co.nz
 
 ---
 

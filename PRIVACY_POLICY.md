@@ -95,7 +95,7 @@ Since all data is stored locally on your device, you have full control over your
 
 If you have questions about this Privacy Policy or our privacy practices, please contact us at:
 
-**Email**: support-approjects@pm.me
+**Email**: dev@aiconsult.co.nz
 
 ---
 

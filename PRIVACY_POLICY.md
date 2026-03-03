@@ -1,6 +1,7 @@
 # InspectPro Privacy Policy
 
 **Last Updated: March 2026**
+**Version: 1.0**
 
 ## Introduction
 
@@ -186,6 +187,12 @@ If you have concerns about our handling of your personal information, please con
 - **New Zealand:** Office of the Privacy Commissioner — [www.privacy.org.nz](https://www.privacy.org.nz)
 - **Australia:** Office of the Australian Information Commissioner (OAIC) — [www.oaic.gov.au](https://www.oaic.gov.au)
 - **European Union:** Your local Data Protection Authority — a directory is available at [edpb.europa.eu](https://edpb.europa.eu/about-edpb/about-edpb/members_en)
+
+## Version History
+
+| Version | Date | Description |
+|---------|------|-------------|
+| 1.0 | March 2026 | Initial publication with NZ/AU legal compliance |
 
 ## Contact Us
 

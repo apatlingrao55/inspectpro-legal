@@ -1,10 +1,11 @@
 # InspectPro Terms of Use
 
 **Last Updated: March 2026**
+**Version: 1.0**
 
 ## Agreement to Terms
 
-By downloading, installing, or using InspectPro ("the App"), you agree to be bound by these Terms of Use ("Terms"). If you do not agree to these Terms, do not use the App.
+By tapping "I Agree", checking the acceptance checkbox, or otherwise explicitly accepting these Terms within the App, you agree to be bound by these Terms of Use ("Terms"). A link to the full text of these Terms is provided at the point of acceptance. If you do not agree to these Terms, do not use the App.
 
 InspectPro is developed and operated by AI Consult Ltd (NZBN: 9429052142376), New Zealand.
 
@@ -58,6 +59,12 @@ You agree NOT to use the App to:
 - Infringe on the rights of others
 - Transmit harmful code or interfere with the App's operation
 
+## Content Moderation
+
+InspectPro currently operates as an offline, local-only application. All content you create is stored on your device and is not shared through our services.
+
+If we introduce cloud storage, content sharing, or user account features in the future, we will implement appropriate content moderation policies, including a copyright notice-and-takedown process and a right to remove user content. These policies will be added to these Terms before any such features are made available, and you will be notified in accordance with our Changes to Terms process.
+
 ## Professional Responsibility
 
 - The App is a documentation tool to assist with property inspections
@@ -109,13 +116,16 @@ Our goods and services come with guarantees that cannot be excluded under the Au
 ## Indemnification
 
 You agree to indemnify, defend, and hold harmless InspectPro and its developers from any claims, damages, losses, liabilities, and reasonable legal fees and expenses arising from:
-- Your use of the App in breach of these Terms or applicable law
-- Your violation of these Terms
+- Your misuse of the App or use in a manner not authorised by these Terms
+- Your breach of these Terms or applicable law
+- Content you create, share, or distribute using the App, including any infringing, defamatory, or unlawful content
+- Third-party claims arising from inspection reports or documentation you produce using the App
 - Your violation of any rights of another party
-- Content you create or share using the App
-- Third-party reliance on reports or documentation you produce using the App
 
-Notwithstanding the above, you are not required to indemnify us to the extent that a claim arises from our own negligence, wilful misconduct, or breach of these Terms.
+**Exclusions.** You are not required to indemnify us to the extent that a claim arises from:
+- Our own negligence, wilful misconduct, or breach of these Terms
+- Any non-excludable consumer guarantee under the Consumer Guarantees Act 1993 (NZ) or the Australian Consumer Law
+- Regulatory action taken against us by the Commerce Commission (NZ), the Australian Competition and Consumer Commission (ACCC), the Office of the Privacy Commissioner (NZ), or the Office of the Australian Information Commissioner (OAIC)
 
 This indemnification obligation survives the termination of these Terms and your use of the App.
 
@@ -126,6 +136,15 @@ We reserve the right to modify these Terms at any time. For material changes, we
 - Updating the "Last Updated" date
 
 Your continued use of the App after the notice period constitutes acceptance of the new Terms. If you do not agree to the revised Terms, you must stop using the App before the changes take effect.
+
+## Acceptance and Record-Keeping
+
+Acceptance of these Terms is recorded within the App. When you accept these Terms, the following information is logged:
+- The date and time of acceptance
+- The version of the Terms accepted
+- A device identifier
+
+If we make material changes to these Terms, you will be asked to review and re-accept the updated version before continuing to use the App. Previous versions of these Terms are archived and available upon request.
 
 ## Termination
 
@@ -156,7 +175,7 @@ Any dispute arising from these Terms or your use of the App shall be resolved th
 2. **Mediation.** If the dispute is not resolved informally, either party may refer the dispute to mediation administered by the Resolution Institute (or its successor) under its mediation rules. The mediation will take place in New Zealand. The costs of mediation will be shared equally.
 3. **Court proceedings.** If mediation does not resolve the dispute, either party may commence proceedings in the courts of New Zealand.
 
-For disputes involving claims under NZ$60,000, either party may also refer the matter to the Disputes Tribunal of New Zealand.
+For disputes involving claims under NZ$30,000, either party may also refer the matter to the Disputes Tribunal of New Zealand.
 
 ## Severability
 
@@ -165,6 +184,12 @@ If any provision of these Terms is found to be unenforceable, the remaining prov
 ## Entire Agreement
 
 These Terms, together with our Privacy Policy and End User License Agreement (EULA), constitute the entire agreement between you and InspectPro regarding the use of the App.
+
+## Version History
+
+| Version | Date | Description |
+|---------|------|-------------|
+| 1.0 | March 2026 | Initial publication with NZ/AU legal compliance |
 
 ## Contact Us
 
@@ -176,4 +201,4 @@ InspectPro is operated by AI Consult Ltd.
 
 ---
 
-By using InspectPro, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use.
+By accepting these Terms within the App, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use.

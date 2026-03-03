@@ -1,12 +1,13 @@
 # InspectPro End User License Agreement (EULA)
 
 **Last Updated: March 2026**
+**Version: 1.0**
 
 ## Agreement
 
 This End User License Agreement ("EULA") is a legal agreement between you ("User") and InspectPro ("we", "our", or "us") for the use of the InspectPro mobile application ("the App").
 
-By downloading, installing, or using the App, you agree to be bound by the terms of this EULA. If you do not agree, do not use the App.
+By tapping "I Agree", checking the acceptance checkbox, or otherwise explicitly accepting this EULA within the App, you agree to be bound by the terms of this EULA. A link to the full text of this EULA is provided at the point of acceptance. If you do not agree, do not use the App.
 
 InspectPro is developed and operated by AI Consult Ltd (NZBN: 9429052142376), New Zealand.
 
@@ -89,13 +90,16 @@ Our goods and services come with guarantees that cannot be excluded under the Au
 ## Indemnification
 
 You agree to indemnify, defend, and hold harmless InspectPro and its developers from any claims, damages, losses, liabilities, and reasonable legal fees and expenses arising from:
-- Your use of the App in breach of this EULA or applicable law
-- Your violation of this EULA
+- Your misuse of the App or use in a manner not authorised by this EULA
+- Your breach of this EULA or applicable law
+- Content you create, share, or distribute using the App, including any infringing, defamatory, or unlawful content
+- Third-party claims arising from inspection reports or documentation you produce using the App
 - Your violation of any rights of another party
-- Content you create or share using the App
-- Third-party reliance on reports or documentation you produce using the App
 
-Notwithstanding the above, you are not required to indemnify us to the extent that a claim arises from our own negligence, wilful misconduct, or breach of this EULA.
+**Exclusions.** You are not required to indemnify us to the extent that a claim arises from:
+- Our own negligence, wilful misconduct, or breach of this EULA
+- Any non-excludable consumer guarantee under the Consumer Guarantees Act 1993 (NZ) or the Australian Consumer Law
+- Regulatory action taken against us by the Commerce Commission (NZ), the Australian Competition and Consumer Commission (ACCC), the Office of the Privacy Commissioner (NZ), or the Office of the Australian Information Commissioner (OAIC)
 
 This indemnification obligation survives the termination of this EULA and your use of the App.
 
@@ -122,7 +126,7 @@ Any dispute arising from this EULA or your use of the App shall be resolved thro
 2. **Mediation.** If the dispute is not resolved informally, either party may refer the dispute to mediation administered by the Resolution Institute (or its successor) under its mediation rules. The mediation will take place in New Zealand. The costs of mediation will be shared equally.
 3. **Court proceedings.** If mediation does not resolve the dispute, either party may commence proceedings in the courts of New Zealand.
 
-For disputes involving claims under NZ$60,000, either party may also refer the matter to the Disputes Tribunal of New Zealand.
+For disputes involving claims under NZ$30,000, either party may also refer the matter to the Disputes Tribunal of New Zealand.
 
 ## Severability
 
@@ -131,6 +135,12 @@ If any provision of this EULA is found to be invalid or unenforceable, the remai
 ## Entire Agreement
 
 This EULA, together with our Terms of Use and Privacy Policy, constitutes the entire agreement between you and InspectPro regarding the App and supersedes all prior agreements.
+
+## Version History
+
+| Version | Date | Description |
+|---------|------|-------------|
+| 1.0 | March 2026 | Initial publication with NZ/AU legal compliance |
 
 ## Contact Us
 
@@ -142,4 +152,4 @@ InspectPro is operated by AI Consult Ltd.
 
 ---
 
-By using InspectPro, you acknowledge that you have read, understood, and agree to be bound by this End User License Agreement.
+By accepting this EULA within the App, you acknowledge that you have read, understood, and agree to be bound by this End User License Agreement.

@@ -52,6 +52,15 @@ The App is provided free of charge. All features are available without payment.
 
 By using the App, you represent and warrant that you are acquiring the App primarily for business or professional purposes and not for personal, domestic, or household use. To the extent permitted by section 43(2) of the Consumer Guarantees Act 1993 (NZ), the consumer guarantees under that Act do not apply to the supply of the App where it is acquired for business purposes.
 
+## Professional Qualification Warranty
+
+By using the App for property inspection purposes, you represent and warrant that:
+- You hold the professional qualifications, certifications, or licences required in your jurisdiction to conduct property inspections
+- You maintain appropriate professional indemnity insurance for the inspection services you provide
+- You are solely responsible for ensuring that your inspection practices comply with all applicable laws, regulations, and professional standards
+
+InspectPro does not verify your qualifications, licensing, or insurance status. You indemnify InspectPro against any claims arising from your representation of professional status.
+
 ## Disclaimer of Warranties
 
 THE APP IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. WE DISCLAIM ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
@@ -65,7 +74,13 @@ We do not warrant that:
 
 ## Fitness for Purpose Disclaimer
 
-The App is a property inspection documentation tool only. It is not a substitute for the services of a qualified building inspector, engineer, or other professional. The App does not certify the condition, safety, or compliance of any property under the Building Act 2004 (NZ), NZS 4306:2005 (Residential Property Inspection), AS 4349.1 (Inspection of Buildings), or any other legislation or standard. No output of the App should be treated as independent professional advice.
+The App is a property inspection documentation tool only. It captures and formats the inspector's observations. It does not assess, certify, guarantee, or warrant anything about the condition, safety, weathertightness, or compliance of any property.
+
+The App is not a substitute for the services of a qualified building inspector, engineer, or other professional. The App does not certify the condition, safety, or compliance of any property under the Building Act 2004 (NZ), NZS 4306:2005 (Residential Property Inspection), AS 4349.1 (Inspection of Buildings), or any other legislation or standard.
+
+No output of the App constitutes a building report, compliance certificate, or professional assessment under any legislation or standard. No output of the App should be treated as independent professional advice. All professional opinions, conclusions, and assessments contained in a report are the inspector's alone.
+
+The App makes no representation about a property's weathertightness or compliance with the New Zealand Building Code or any Australian building standard.
 
 ## Limitation of Liability
 

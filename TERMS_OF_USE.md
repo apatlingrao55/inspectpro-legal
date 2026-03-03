@@ -31,6 +31,15 @@ The App is provided free of charge. All features are available without payment.
 
 By using the App, you represent and warrant that you are acquiring the App primarily for business or professional purposes and not for personal, domestic, or household use. To the extent permitted by section 43(2) of the Consumer Guarantees Act 1993 (NZ), the consumer guarantees under that Act do not apply to the supply of the App where it is acquired for business purposes.
 
+## Professional Qualification Warranty
+
+By using the App for property inspection purposes, you represent and warrant that:
+- You hold the professional qualifications, certifications, or licences required in your jurisdiction to conduct property inspections
+- You maintain appropriate professional indemnity insurance for the inspection services you provide
+- You are solely responsible for ensuring that your inspection practices comply with all applicable laws, regulations, and professional standards
+
+InspectPro does not verify your qualifications, licensing, or insurance status. You indemnify InspectPro against any claims arising from your representation of professional status.
+
 ## Age Restriction
 
 You must be at least 16 years of age to use the App. If you are under 18 years of age, you represent that your parent or legal guardian has reviewed and agreed to these Terms on your behalf. We do not knowingly allow use of the App by persons under 16.
@@ -51,6 +60,10 @@ You must be at least 16 years of age to use the App. If you are under 18 years o
 
 The App does not currently integrate with any third-party services that collect or process your data. If we introduce third-party integrations in the future, we will update these Terms and our Privacy Policy accordingly and notify you in advance.
 
+## Third-Party Data
+
+If the App displays data sourced from third parties (including but not limited to local council records, Land Information New Zealand (LINZ), or property information databases), that data is provided for reference only. We do not verify, warrant, or guarantee the accuracy, completeness, or currency of any third-party data. You must independently verify any third-party data before relying on it in a professional capacity.
+
 ## Acceptable Use
 
 You agree NOT to use the App to:
@@ -67,12 +80,16 @@ If we introduce cloud storage, content sharing, or user account features in the 
 
 ## Professional Responsibility
 
-- The App is a documentation tool to assist with property inspections
+- The App captures and formats the inspector's observations. It does not assess, certify, guarantee, or warrant anything about the condition, safety, weathertightness, or compliance of any property
 - The App does not replace professional judgment, expertise, or the services of a qualified building inspector
-- The App does not certify the condition, safety, or compliance of any property under the Building Act 2004, NZS 4306:2005 (Residential Property Inspection), or any other legislation or standard
+- The App does not certify the condition, safety, or compliance of any property under the Building Act 2004, NZS 4306:2005 (Residential Property Inspection), AS 4349.1 (Inspection of Buildings), or any other legislation or standard
+- No output of the App constitutes a building report, compliance certificate, or professional assessment under any legislation or standard
 - The App is not a substitute for independent professional advice, and no output of the App should be treated as such
+- All professional opinions, conclusions, and assessments contained in a report are the inspector's alone
+- The App does not verify the accuracy, completeness, or professional standard of any content entered by the user
 - You are responsible for the accuracy and completeness of your inspection reports
 - We do not guarantee that reports created with the App will meet specific professional standards or legal requirements
+- The App makes no representation about a property's weathertightness or compliance with the New Zealand Building Code or any Australian building standard
 - If you enter personal information about third parties (such as clients) into the App, you are responsible for ensuring your collection and use of that information complies with the Privacy Act 2020 (NZ), the Privacy Act 1988 (Cth), and any other applicable privacy legislation
 
 ## Disclaimer of Warranties

@@ -2,8 +2,10 @@
 
 ## Contact Us
 
-For questions, bug reports, or feature requests, reach out to us at:
+InspectPro is operated by AI Consult Ltd.
 
+**NZBN**: 9429052142376
+**Address**: 25 Edinburgh Avenue, Rosehill, Papakura 2113, New Zealand
 **Email**: dev@aiconsult.co.nz
 
 ## Frequently Asked Questions
@@ -19,6 +21,12 @@ Open an inspection and tap the **PDF Preview** button. From there you can previe
 
 ### Is InspectPro really free?
 Yes. All features are available at no cost with no in-app purchases.
+
+### Is InspectPro available on Android?
+InspectPro is currently available on iOS only. We do not have a confirmed timeline for an Android release at this time.
+
+### What data does InspectPro collect?
+All your data is stored locally on your device. We do not upload, track, or have access to your inspection data, photos, or client information. See our [Privacy Policy](PRIVACY_POLICY.md) for full details.
 
 ### Can I transfer my data to another device?
 You can export your settings configuration via the app's Settings screen and import it on another device. Inspection data is stored locally and is not automatically synced between devices.
@@ -39,3 +47,10 @@ When reporting a bug, please include:
 - [Terms of Use](TERMS_OF_USE.md)
 - [Privacy Policy](PRIVACY_POLICY.md)
 - [EULA](EULA.md)
+
+## Privacy Commissioner Contacts
+
+If you have concerns about how your personal information is handled, you may contact the relevant privacy authority:
+
+- **New Zealand:** Office of the Privacy Commissioner — [www.privacy.org.nz](https://www.privacy.org.nz)
+- **Australia:** Office of the Australian Information Commissioner (OAIC) — [www.oaic.gov.au](https://www.oaic.gov.au)

@@ -19,8 +19,8 @@ InspectPro is developed and operated by AI Consult Ltd (NZBN: 9429052142376), Ne
 **Your obligations:** When you enter personal information about third parties (such as clients) into the App, you become the holder of that information. You are responsible for ensuring your collection, storage, and use of that information complies with the Privacy Act 2020 (NZ), the Privacy Act 1988 (Cth), and any other applicable privacy legislation. We do not access or process this information on your behalf.
 
 ### Automatically Collected Information
-- **Device Information**: We may collect device type and operating system version for app compatibility purposes
-- **App Usage**: Basic usage data for app compatibility purposes
+- **Device Information**: The App reads your device type and operating system version locally to ensure compatibility. This information is not transmitted to us or any third party.
+- **Acceptance Record**: When you accept the Terms of Use, the App logs the date and time of acceptance, the version accepted, and a locally generated device identifier. This record is stored locally on your device and is not transmitted to us.
 
 ## How We Store Your Data
 
@@ -52,6 +52,8 @@ We implement appropriate security measures to protect your information:
 - All data remains on your device under your device's security protections
 - We do not transmit your data over the internet
 - Photo and inspection data are only accessible within the app
+
+**Device backups:** Your device's backup settings (such as iCloud or Google backups) may include app data stored on your device. These backups are controlled by your device settings and your cloud provider, not by InspectPro. If you wish to exclude app data from cloud backups, consult your device's backup settings.
 
 ## Your Rights
 
@@ -95,7 +97,7 @@ The App does not transfer your personal data across borders. All data remains lo
 
 If you are located in Australia, the Australian Privacy Principles (APPs) under the Privacy Act 1988 (Cth) apply. We are committed to compliance with the APPs, including:
 
-- **Open and transparent management (APP 1):** This Privacy Policy describes how we manage personal information. We do not hold personal information on our servers.
+- **Open and transparent management (APP 1):** This Privacy Policy describes how we manage personal information, including the kinds of information we collect, how we collect and use it, how you may access or correct it, how you may complain about a breach of the APPs, and how we deal with such complaints. We do not hold personal information on our servers.
 - **Anonymity and pseudonymity (APP 2):** You may use the App without identifying yourself to us. We do not require account registration.
 - **Collection of solicited personal information (APP 3):** We collect only the minimum information necessary for the App's functionality (device type and OS version for compatibility).
 - **Dealing with unsolicited personal information (APP 4):** We do not receive unsolicited personal information as all data is stored locally on your device.
@@ -125,7 +127,7 @@ InspectPro is not intended for use by children under 16. We do not knowingly col
 
 ## Changes to This Policy
 
-We may update this Privacy Policy from time to time. For material changes, we will provide at least 30 days' advance notice by posting the new Privacy Policy in the app and updating the "Last Updated" date. Your continued use of the App after the notice period constitutes acceptance of the updated policy. If you do not agree to the revised policy, you must stop using the App before the changes take effect.
+We may update this Privacy Policy from time to time. For material changes, we will provide at least 30 days' advance notice by posting the new Privacy Policy in the App and updating the "Last Updated" date. If we make material changes, you will be asked to review and re-accept the updated policy within the App before continuing to use it. If you do not agree to the revised policy, you must stop using the App before the changes take effect.
 
 ## Data Retention
 

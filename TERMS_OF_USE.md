@@ -15,7 +15,7 @@ InspectPro is a mobile application designed for property inspection professional
 
 ## License
 
-We grant you a limited, non-exclusive, non-transferable, revocable license to use the App for your personal or professional use, subject to these Terms.
+We grant you a limited, non-exclusive, non-transferable, revocable license to use the App for your professional use, subject to these Terms.
 
 You may NOT:
 - Copy, modify, or distribute the App
@@ -178,7 +178,7 @@ Upon termination:
 
 ## Survival
 
-The following sections survive any termination or expiration of these Terms: Disclaimer of Warranties, Limitation of Liability, Australian Consumer Law Notice, Indemnification, Governing Law, Dispute Resolution, and Severability.
+The following sections survive any termination or expiration of these Terms: Professional Responsibility, Disclaimer of Warranties, Limitation of Liability, Australian Consumer Law Notice, Indemnification, Governing Law, Dispute Resolution, and Severability.
 
 ## Governing Law
 
@@ -192,7 +192,7 @@ Any dispute arising from these Terms or your use of the App shall be resolved th
 2. **Mediation.** If the dispute is not resolved informally, either party may refer the dispute to mediation administered by the Resolution Institute (or its successor) under its mediation rules. The mediation will take place in New Zealand. The costs of mediation will be shared equally.
 3. **Court proceedings.** If mediation does not resolve the dispute, either party may commence proceedings in the courts of New Zealand.
 
-For disputes involving claims under NZ$30,000, either party may also refer the matter to the Disputes Tribunal of New Zealand.
+For disputes involving claims under NZ$60,000, either party may also refer the matter to the Disputes Tribunal of New Zealand.
 
 ## Severability
 

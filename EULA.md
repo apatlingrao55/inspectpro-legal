@@ -48,6 +48,10 @@ The App, including all content, features, and functionality (code, design, graph
 
 The App is provided free of charge. All features are available without payment.
 
+## Age Restriction
+
+You must be at least 16 years of age to accept this EULA and use the App. If you are under 18 years of age, you represent that your parent or legal guardian has reviewed and agreed to this EULA on your behalf. We do not knowingly allow use of the App by persons under 16.
+
 ## Business Use Acknowledgment
 
 By using the App, you represent and warrant that you are acquiring the App primarily for business or professional purposes and not for personal, domestic, or household use. To the extent permitted by section 43(2) of the Consumer Guarantees Act 1993 (NZ), the consumer guarantees under that Act do not apply to the supply of the App where it is acquired for business purposes.
@@ -71,6 +75,8 @@ We do not warrant that:
 - Defects in the App will be corrected
 
 **New Zealand and Australian Consumer Law:** Nothing in this EULA excludes, restricts, or modifies any consumer guarantee, right, or remedy conferred by the Consumer Guarantees Act 1993 (NZ) or the Australian Consumer Law (Schedule 2 of the Competition and Consumer Act 2010) that cannot be excluded, restricted, or modified by agreement. Where our liability cannot be excluded, it is limited (to the extent permitted by law) to the resupply of the services or the cost of having the services resupplied.
+
+Nothing in this EULA constitutes misleading or deceptive conduct for the purposes of the Fair Trading Act 1986 (NZ) or equivalent Australian state and territory fair trading legislation.
 
 ## Fitness for Purpose Disclaimer
 
@@ -141,7 +147,7 @@ Any dispute arising from this EULA or your use of the App shall be resolved thro
 2. **Mediation.** If the dispute is not resolved informally, either party may refer the dispute to mediation administered by the Resolution Institute (or its successor) under its mediation rules. The mediation will take place in New Zealand. The costs of mediation will be shared equally.
 3. **Court proceedings.** If mediation does not resolve the dispute, either party may commence proceedings in the courts of New Zealand.
 
-For disputes involving claims under NZ$30,000, either party may also refer the matter to the Disputes Tribunal of New Zealand.
+For disputes involving claims under NZ$60,000, either party may also refer the matter to the Disputes Tribunal of New Zealand.
 
 ## Severability
 

@@ -13,17 +13,17 @@ InspectPro is developed and operated by AI Consult Ltd (NZBN: 9429052142376), Ne
 
 ## License Grant
 
-We grant you a limited, non-exclusive, non-transferable, revocable license to install and use the App on any compatible mobile device that you own or control. If you obtained the App through the Apple App Store, your use is also subject to the Usage Rules set forth in the Apple Media Services Terms and Conditions. If you obtained the App through the Google Play Store, your use is also subject to the Google Play Terms of Service.
+We grant you a limited, non-exclusive, non-transferable, revocable license to install and use the App on any compatible mobile device that you own or control. If you obtained the App through the Apple App Store, your use is also subject to the Usage Rules set forth in the Apple Media Services Terms and Conditions.
 
-## Apple and Google Play Compliance
+## Apple App Store Compliance
 
-You acknowledge that this EULA is between you and InspectPro only, and not with Apple Inc. ("Apple") or Google LLC ("Google"). Neither Apple nor Google is a party to this EULA or responsible for the App or its content.
+You acknowledge that this EULA is between you and InspectPro only, and not with Apple Inc. ("Apple"). Apple is not a party to this EULA or responsible for the App or its content.
 
-- **Maintenance and support.** InspectPro, not Apple or Google, is solely responsible for providing maintenance and support services for the App.
-- **Warranty.** InspectPro, not Apple or Google, is responsible for any product warranties, whether express or implied. In the event of a failure to conform to any applicable warranty, you may notify Apple or Google for a refund of the purchase price (if any); beyond that, Apple and Google have no warranty obligation.
-- **Product claims.** InspectPro, not Apple or Google, is responsible for addressing any claims relating to the App, including product liability claims, regulatory compliance claims, and consumer protection claims.
-- **Intellectual property.** InspectPro, not Apple or Google, is responsible for the investigation, defence, settlement, and discharge of any third-party intellectual property infringement claims.
-- **Third-party beneficiary.** Apple and its subsidiaries are third-party beneficiaries of this EULA with respect to App Store distribution, and upon your acceptance of this EULA, Apple will have the right to enforce it against you as a third-party beneficiary. Google is a third-party beneficiary of this EULA with respect to Google Play distribution.
+- **Maintenance and support.** InspectPro, not Apple, is solely responsible for providing maintenance and support services for the App.
+- **Warranty.** InspectPro, not Apple, is responsible for any product warranties, whether express or implied. In the event of a failure to conform to any applicable warranty, you may notify Apple for a refund of the purchase price (if any); beyond that, Apple has no warranty obligation.
+- **Product claims.** InspectPro, not Apple, is responsible for addressing any claims relating to the App, including product liability claims, regulatory compliance claims, and consumer protection claims.
+- **Intellectual property.** InspectPro, not Apple, is responsible for the investigation, defence, settlement, and discharge of any third-party intellectual property infringement claims.
+- **Third-party beneficiary.** Apple and its subsidiaries are third-party beneficiaries of this EULA with respect to App Store distribution, and upon your acceptance of this EULA, Apple will have the right to enforce it against you as a third-party beneficiary.
 
 ## Restrictions
 
@@ -169,7 +169,7 @@ InspectPro is operated by AI Consult Ltd.
 
 **NZBN**: 9429052142376
 **Address**: 25 Edinburgh Avenue, Rosehill, Papakura 2113, New Zealand
-**Email**: dev@aiconsult.co.nz
+**Email**: privacy@aiconsult.co.nz
 
 ---
 

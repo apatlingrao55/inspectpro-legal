@@ -91,7 +91,7 @@ Under Part 6 of the Privacy Act 2020 (NZ), we are required to notify the New Zea
 
 ## Cross-Border Data Considerations
 
-The App does not transfer your personal data across borders. All data remains locally on your device. If we introduce features in the future that involve cross-border data transfers, we will implement appropriate safeguards (such as standard contractual clauses for EU data or compliance with the NZ Privacy Act 2020 disclosure rules) and update this Privacy Policy before any such transfers occur.
+The App does not transfer your personal data across borders. All data remains locally on your device. If we introduce features in the future that involve cross-border data transfers, we will implement appropriate safeguards in compliance with the NZ Privacy Act 2020 disclosure rules and applicable Australian privacy legislation, and update this Privacy Policy before any such transfers occur.
 
 ## Australian Privacy
 
@@ -111,7 +111,7 @@ If you are located in Australia, the Australian Privacy Principles (APPs) under 
 - **Access to personal information (APP 12):** You can access all your personal information directly within the App at any time.
 - **Correction of personal information (APP 13):** You can correct any personal information directly within the App at any time.
 
-If you believe we have breached the APPs, you may lodge a complaint with us at dev@aiconsult.co.nz. We will respond to your complaint within 30 days. If you are not satisfied with our response, you may lodge a complaint with the Office of the Australian Information Commissioner (OAIC) at [www.oaic.gov.au](https://www.oaic.gov.au).
+If you believe we have breached the APPs, you may lodge a complaint with us at privacy@aiconsult.co.nz. We will respond to your complaint within 30 days. If you are not satisfied with our response, you may lodge a complaint with the Office of the Australian Information Commissioner (OAIC) at [www.oaic.gov.au](https://www.oaic.gov.au).
 
 ## Australian Notifiable Data Breaches
 
@@ -140,55 +140,12 @@ Your data is retained on your device until:
 
 The App does not currently integrate with any third-party services or SDKs that collect or process user data. If we introduce third-party integrations in the future, we will disclose the specific services and their data practices in this Privacy Policy and provide advance notice before any changes take effect.
 
-## California Privacy Rights (CCPA)
-
-California residents have additional rights:
-- Right to know what personal information is collected
-- Right to delete personal information
-- Right to opt-out of sale of personal information (we do not sell your data)
-- Right to non-discrimination for exercising your privacy rights
-
-Because all data is stored locally on your device and we do not have access to it, our architecture inherently satisfies these rights. You have full control over your information at all times.
-
-## European Privacy Rights (GDPR)
-
-If you are located in the European Economic Area (EEA) or the United Kingdom, the General Data Protection Regulation (GDPR) and UK GDPR apply. The following additional provisions apply to you:
-
-### Legal Basis for Processing
-We process personal information on the following legal bases under Article 6(1) GDPR:
-- **(a) Consent:** You provide consent by choosing to enter information into the App.
-- **(b) Contract:** Processing is necessary for the performance of the App's services to you.
-- **(f) Legitimate interest:** Basic device compatibility data is collected under our legitimate interest in maintaining a functional application.
-
-### Your GDPR Rights
-In addition to the general rights above, you have the right to:
-- **Access** your personal data
-- **Rectification** of inaccurate data
-- **Erasure** ("right to be forgotten")
-- **Data portability** (via PDF export)
-- **Restriction** of processing
-- **Object** to processing based on legitimate interest
-- **Withdraw consent** at any time without affecting the lawfulness of prior processing
-- **Lodge a complaint** with your local data protection authority (see Privacy Commissioner Contact Information below)
-
-### Data Controller
-InspectPro (operated by AI Consult Ltd, New Zealand) is the data controller for any personal data processed in connection with the App.
-
-### Automated Decision-Making
-We do not engage in automated decision-making or profiling as defined under Article 22 GDPR.
-
-### Data Protection Officer
-Given the limited nature of our data processing (all data is stored locally on your device), we are not required to appoint a Data Protection Officer. For any privacy inquiries, please contact us at dev@aiconsult.co.nz.
-
-Since all data is stored locally on your device, you have full control over your information at all times.
-
 ## Privacy Commissioner Contact Information
 
-If you have concerns about our handling of your personal information, please contact us first at dev@aiconsult.co.nz. We will respond within 30 days. If you are not satisfied with our response, you may contact the relevant authority:
+If you have concerns about our handling of your personal information, please contact us first at privacy@aiconsult.co.nz. We will respond within 30 days. If you are not satisfied with our response, you may contact the relevant authority:
 
 - **New Zealand:** Office of the Privacy Commissioner — [www.privacy.org.nz](https://www.privacy.org.nz)
 - **Australia:** Office of the Australian Information Commissioner (OAIC) — [www.oaic.gov.au](https://www.oaic.gov.au)
-- **European Union:** Your local Data Protection Authority — a directory is available at [edpb.europa.eu](https://edpb.europa.eu/about-edpb/about-edpb/members_en)
 
 ## Version History
 
@@ -202,7 +159,7 @@ InspectPro is operated by AI Consult Ltd.
 
 **NZBN**: 9429052142376
 **Address**: 25 Edinburgh Avenue, Rosehill, Papakura 2113, New Zealand
-**Email**: dev@aiconsult.co.nz
+**Email**: privacy@aiconsult.co.nz
 
 ---
 

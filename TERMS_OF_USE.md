@@ -1,21 +1,18 @@
 # InspectPro Terms of Use
 
-**Last Updated: March 2026**
-**Version: 1.0**
+**Version 4.0 — Last Updated: March 2026**
 
 ## Agreement to Terms
 
-By tapping "I Agree", checking the acceptance checkbox, or otherwise explicitly accepting these Terms within the App, you agree to be bound by these Terms of Use ("Terms"). A link to the full text of these Terms is provided at the point of acceptance. If you do not agree to these Terms, do not use the App.
-
-InspectPro is developed and operated by AI Consult Ltd (NZBN: 9429052142376), New Zealand.
+By downloading, installing, or using InspectPro ("the App"), you agree to be bound by these Terms of Use ("Terms"). If you do not agree to these Terms, do not use the App.
 
 ## Description of Service
 
-InspectPro is a mobile application designed for property inspection professionals to create inspection reports, document findings with photos, and generate PDF reports.
+InspectPro is a mobile application designed for property inspection companies and professionals to create inspection reports, document findings with photos, and generate PDF reports.
 
 ## License
 
-We grant you a limited, non-exclusive, non-transferable, revocable license to use the App for your professional use, subject to these Terms.
+We grant you a limited, non-exclusive, non-transferable, revocable license to use the App for your personal or professional use, subject to these Terms.
 
 You may NOT:
 - Copy, modify, or distribute the App
@@ -23,26 +20,22 @@ You may NOT:
 - Use the App for any illegal purpose
 - Sublicense, sell, or transfer your rights to the App
 
-## Cost
+## Access Tiers
 
-The App is provided free of charge. All features are available without payment.
+### Free Trial (10 Days)
+The App is available free of charge for 10 days of unlimited use. No account is required. After the trial period, a company subscription is required to continue using the App.
 
-## Business Use Acknowledgment
+### Company Subscription
+Inspection companies may purchase a per-seat subscription through our website via Stripe. Subscriptions provide unlimited report exports for all inspectors associated with the company account.
 
-By using the App, you represent and warrant that you are acquiring the App primarily for business or professional purposes and not for personal, domestic, or household use. To the extent permitted by section 43(2) of the Consumer Guarantees Act 1993 (NZ), the consumer guarantees under that Act do not apply to the supply of the App where it is acquired for business purposes.
+Subscription billing, trial periods, cancellation, refunds, and payment terms are governed by our [Billing Policy](./BILLING_POLICY.md). Company administrators manage seat allocation for their organisation.
 
-## Professional Qualification Warranty
+## User Accounts
 
-By using the App for property inspection purposes, you represent and warrant that:
-- You hold the professional qualifications, certifications, or licences required in your jurisdiction to conduct property inspections
-- You maintain appropriate professional indemnity insurance for the inspection services you provide
-- You are solely responsible for ensuring that your inspection practices comply with all applicable laws, regulations, and professional standards
-
-InspectPro does not verify your qualifications, licensing, or insurance status. You indemnify InspectPro against any claims arising from your representation of professional status.
-
-## Age Restriction
-
-You must be at least 16 years of age to use the App. If you are under 18 years of age, you represent that your parent or legal guardian has reviewed and agreed to these Terms on your behalf. We do not knowingly allow use of the App by persons under 16.
+- You may create an account using your email address and password
+- You are responsible for maintaining the security of your account credentials
+- You must provide accurate information when creating an account
+- Company administrators are responsible for managing their team's access
 
 ## User Content
 
@@ -52,17 +45,10 @@ You must be at least 16 years of age to use the App. If you are under 18 years o
 - You represent that you have all necessary rights to use and share your content
 
 ### Content Storage
-- All content is stored locally on your device
-- We do not have access to your content
+- Inspection data is stored locally on your device
+- Account and subscription data is stored securely via Supabase
+- We do not access your inspection content
 - You are responsible for backing up your own data
-
-## Third-Party Services
-
-The App does not currently integrate with any third-party services that collect or process your data. If we introduce third-party integrations in the future, we will update these Terms and our Privacy Policy accordingly and notify you in advance.
-
-## Third-Party Data
-
-If the App displays data sourced from third parties (including but not limited to local council records, Land Information New Zealand (LINZ), or property information databases), that data is provided for reference only. We do not verify, warrant, or guarantee the accuracy, completeness, or currency of any third-party data. You must independently verify any third-party data before relying on it in a professional capacity.
 
 ## Acceptable Use
 
@@ -71,26 +57,14 @@ You agree NOT to use the App to:
 - Violate any applicable laws or regulations
 - Infringe on the rights of others
 - Transmit harmful code or interfere with the App's operation
-
-## Content Moderation
-
-InspectPro currently operates as an offline, local-only application. All content you create is stored on your device and is not shared through our services.
-
-If we introduce cloud storage, content sharing, or user account features in the future, we will implement appropriate content moderation policies, including a copyright notice-and-takedown process and a right to remove user content. These policies will be added to these Terms before any such features are made available, and you will be notified in accordance with our Changes to Terms process.
+- Share account credentials with unauthorized users
 
 ## Professional Responsibility
 
-- The App captures and formats the inspector's observations. It does not assess, certify, guarantee, or warrant anything about the condition, safety, weathertightness, or compliance of any property
-- The App does not replace professional judgment, expertise, or the services of a qualified building inspector
-- The App does not certify the condition, safety, or compliance of any property under the Building Act 2004, NZS 4306:2005 (Residential Property Inspection), AS 4349.1 (Inspection of Buildings), or any other legislation or standard
-- No output of the App constitutes a building report, compliance certificate, or professional assessment under any legislation or standard
-- The App is not a substitute for independent professional advice, and no output of the App should be treated as such
-- All professional opinions, conclusions, and assessments contained in a report are the inspector's alone
-- The App does not verify the accuracy, completeness, or professional standard of any content entered by the user
+- The App is a tool to assist with property inspections
+- The App does not replace professional judgment or expertise
 - You are responsible for the accuracy and completeness of your inspection reports
 - We do not guarantee that reports created with the App will meet specific professional standards or legal requirements
-- The App makes no representation about a property's weathertightness or compliance with the New Zealand Building Code or any Australian building standard
-- If you enter personal information about third parties (such as clients) into the App, you are responsible for ensuring your collection and use of that information complies with the Privacy Act 2020 (NZ), the Privacy Act 1988 (Cth), and any other applicable privacy legislation
 
 ## Disclaimer of Warranties
 
@@ -106,93 +80,55 @@ We do not warrant that:
 - Results obtained from using the App will be accurate or reliable
 - Any errors in the App will be corrected
 
-**New Zealand and Australian Consumer Law:** Nothing in these Terms excludes, restricts, or modifies any consumer guarantee, right, or remedy conferred by the Consumer Guarantees Act 1993 (NZ) or the Australian Consumer Law (Schedule 2 of the Competition and Consumer Act 2010) that cannot be excluded, restricted, or modified by agreement. Where our liability cannot be excluded, it is limited (to the extent permitted by law) to the resupply of the services or the cost of having the services resupplied.
-
-Nothing in these Terms constitutes misleading or deceptive conduct for the purposes of the Fair Trading Act 1986 (NZ) or equivalent Australian state and territory fair trading legislation.
-
 ## Limitation of Liability
 
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL INSPECTPRO, ITS DEVELOPERS, OR AFFILIATES BE LIABLE FOR:
+- Any indirect, incidental, special, consequential, or punitive damages
+- Loss of profits, data, use, or goodwill
+- Any damages arising from your use or inability to use the App
 
-1. **Exclusion of indirect damages.** In no event shall InspectPro, its developers, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, use, or goodwill.
-
-2. **Cap on direct damages.** Our total aggregate liability for all claims arising out of or relating to these Terms or the App shall not exceed one hundred New Zealand dollars (NZ$100).
-
-3. **Statutory carve-outs.** Nothing in these Terms limits or excludes liability for:
-   - Death or personal injury caused by negligence
-   - Fraud or fraudulent misrepresentation
-   - Any liability that cannot be excluded or limited under the Consumer Guarantees Act 1993 (NZ)
-   - Any liability that cannot be excluded or limited under the Australian Consumer Law
-
-4. **Australian Consumer Law remedy limitation.** For Australian consumers, where our liability for breach of a non-excludable consumer guarantee cannot be limited, our liability is limited to (at our election): (a) the resupply of the services; or (b) the payment of the cost of having the services resupplied.
-
-## Australian Consumer Law Notice
-
-Our goods and services come with guarantees that cannot be excluded under the Australian Consumer Law. For major failures with the service, you are entitled to cancel your service contract with us and to a refund for the unused portion, or to compensation for its reduced value. You are also entitled to choose a refund or replacement for major failures with goods. If a failure with the goods or a service does not amount to a major failure, you are entitled to have the failure rectified in a reasonable time. If this is not done, you are entitled to a refund for the goods and to cancel the contract for the service and obtain a refund of any unused portion.
+Our total liability shall not exceed the fees you paid to InspectPro in the 12 months preceding the claim, or NZD $100, whichever is greater.
 
 ## Indemnification
 
-You agree to indemnify, defend, and hold harmless InspectPro and its developers from any claims, damages, losses, liabilities, and reasonable legal fees and expenses arising from:
-- Your misuse of the App or use in a manner not authorised by these Terms
-- Your breach of these Terms or applicable law
-- Content you create, share, or distribute using the App, including any infringing, defamatory, or unlawful content
-- Third-party claims arising from inspection reports or documentation you produce using the App
+You agree to indemnify and hold harmless InspectPro and its developers from any claims, damages, losses, or expenses arising from:
+- Your use of the App
+- Your violation of these Terms
 - Your violation of any rights of another party
-
-**Exclusions.** You are not required to indemnify us to the extent that a claim arises from:
-- Our own negligence, wilful misconduct, or breach of these Terms
-- Any non-excludable consumer guarantee under the Consumer Guarantees Act 1993 (NZ) or the Australian Consumer Law
-- Regulatory action taken against us by the Commerce Commission (NZ), the Australian Competition and Consumer Commission (ACCC), the Office of the Privacy Commissioner (NZ), or the Office of the Australian Information Commissioner (OAIC)
-
-This indemnification obligation survives the termination of these Terms and your use of the App.
+- Content you create or share using the App
 
 ## Changes to Terms
 
-We reserve the right to modify these Terms at any time. For material changes, we will provide at least 30 days' advance notice by:
+We reserve the right to modify these Terms at any time. We will notify you of material changes by:
 - Posting the updated Terms in the App
 - Updating the "Last Updated" date
+- Requiring re-acceptance of updated Terms within the App
 
-Your continued use of the App after the notice period constitutes acceptance of the new Terms. If you do not agree to the revised Terms, you must stop using the App before the changes take effect.
-
-## Acceptance and Record-Keeping
-
-Acceptance of these Terms is recorded within the App. When you accept these Terms, the following information is logged:
-- The date and time of acceptance
-- The version of the Terms accepted
-- A device identifier
-
-If we make material changes to these Terms, you will be asked to review and re-accept the updated version before continuing to use the App. Previous versions of these Terms are archived and available upon request.
+Your continued use of the App after changes constitutes acceptance of the new Terms.
 
 ## Termination
 
-We may terminate or suspend your access to the App at any time for:
+We may terminate or suspend your access to the App at any time, without prior notice, for:
 - Violation of these Terms
-- Conduct that we reasonably determine is harmful to other users or the App
-- A legal or regulatory requirement that compels us to do so
-- Discontinuation of the App (with 30 days' notice where practicable)
+- Conduct that we determine is harmful to other users or the App
+- Any other reason at our sole discretion
 
 Upon termination:
 - Your license to use the App is revoked
-- Any PDF reports you have previously exported remain yours
-- Data stored locally on your device persists until you uninstall the App or manually delete it
-
-## Survival
-
-The following sections survive any termination or expiration of these Terms: Professional Responsibility, Disclaimer of Warranties, Limitation of Liability, Australian Consumer Law Notice, Indemnification, Governing Law, Dispute Resolution, and Severability.
+- Active subscriptions will not be renewed
+- Your locally stored data remains on your device
 
 ## Governing Law
 
-These Terms shall be governed by and construed in accordance with the laws of New Zealand. The parties submit to the non-exclusive jurisdiction of the courts of New Zealand for the resolution of any disputes arising under or in connection with these Terms.
+These Terms shall be governed by and construed in accordance with the laws of New Zealand, without regard to conflict of law principles.
 
 ## Dispute Resolution
 
-Any dispute arising from these Terms or your use of the App shall be resolved through the following process:
+Any disputes arising from these Terms or your use of the App shall be resolved through:
+1. Good faith negotiation between the parties
+2. If negotiation fails, binding arbitration in accordance with applicable rules
 
-1. **Informal resolution.** The parties will first attempt to resolve the dispute through good faith negotiation for a period of 30 days from written notice of the dispute.
-2. **Mediation.** If the dispute is not resolved informally, either party may refer the dispute to mediation administered by the Resolution Institute (or its successor) under its mediation rules. The mediation will take place in New Zealand. The costs of mediation will be shared equally.
-3. **Court proceedings.** If mediation does not resolve the dispute, either party may commence proceedings in the courts of New Zealand.
-
-For disputes involving claims under NZ$60,000, either party may also refer the matter to the Disputes Tribunal of New Zealand.
+You agree to waive any right to a jury trial or to participate in a class action.
 
 ## Severability
 
@@ -200,22 +136,14 @@ If any provision of these Terms is found to be unenforceable, the remaining prov
 
 ## Entire Agreement
 
-These Terms, together with our Privacy Policy and End User License Agreement (EULA), constitute the entire agreement between you and InspectPro regarding the use of the App.
-
-## Version History
-
-| Version | Date | Description |
-|---------|------|-------------|
-| 1.0 | March 2026 | Initial publication with NZ/AU legal compliance |
+These Terms, together with our Privacy Policy and EULA, constitute the entire agreement between you and InspectPro regarding the use of the App.
 
 ## Contact Us
 
-InspectPro is operated by AI Consult Ltd.
+If you have questions about these Terms, please contact us at:
 
-**NZBN**: 9429052142376
-**Address**: 25 Edinburgh Avenue, Rosehill, Papakura 2113, New Zealand
-**Email**: privacy@aiconsult.co.nz
+**Email**: support@aiconsult.co.nz
 
 ---
 
-By accepting these Terms within the App, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use.
+By using InspectPro, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use.

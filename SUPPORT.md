@@ -6,7 +6,7 @@ InspectPro is operated by AI Consult Ltd.
 
 **NZBN**: 9429052142376
 **Address**: 25 Edinburgh Avenue, Rosehill, Papakura 2113, New Zealand
-**Email**: dev@aiconsult.co.nz
+**Email**: support@aiconsult.co.nz
 
 ## Frequently Asked Questions
 

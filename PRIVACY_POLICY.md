@@ -119,7 +119,7 @@ Inspection data is stored locally on your device, giving you full control. Accou
 
 If you have questions about this Privacy Policy or our privacy practices, please contact us at:
 
-**Email**: dev@aiconsult.co.nz
+**Email**: privacy@aiconsult.co.nz
 
 ---
 

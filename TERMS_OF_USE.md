@@ -47,7 +47,8 @@ Subscription billing, trial periods, cancellation, refunds, and payment terms ar
 ### Content Storage
 - Inspection data is stored locally on your device
 - Account and subscription data is stored securely via Supabase
-- We do not access your inspection content
+- When you use the Approval Workflow or Send to Client features, finalised PDF reports are temporarily uploaded to Supabase Storage to enable those features; approval PDFs are deleted after 72 hours, client delivery PDFs after 7 days
+- Outside of those user-initiated flows, we do not access your inspection content
 - You are responsible for backing up your own data
 
 ## Acceptable Use

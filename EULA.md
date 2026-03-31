@@ -49,7 +49,8 @@ The App, including all content, features, and functionality (code, design, graph
 
 - You retain full ownership of all content you create using the App, including photos, inspection notes, and reports
 - Inspection content is stored locally on your device
-- We do not access, collect, or claim any rights to your inspection content
+- When you use the Approval Workflow or Send to Client features, finalised PDF reports are temporarily uploaded to Supabase Storage to enable those features; approval PDFs are deleted after 72 hours, client delivery PDFs after 7 days
+- Outside of those user-initiated flows, we do not access, collect, or claim any rights to your inspection content
 
 ## Subscription & Payment
 

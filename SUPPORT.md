@@ -14,19 +14,19 @@ InspectPro is operated by AI Consult Ltd.
 Tap the **+** button on the home screen, fill in the property and client details, then start adding areas and items to inspect.
 
 ### Where are my inspections stored?
-All data is stored locally on your device. We do not upload or have access to your inspection data.
+All your inspection data is stored locally on your device. When you use the **Approval Workflow** or **Send to Client** features, finalised PDF reports are temporarily uploaded to Supabase Storage to enable those features — approval PDFs are deleted after 72 hours, client delivery PDFs after 7 days. See our [Privacy Policy](PRIVACY_POLICY.md) for full details.
 
 ### How do I generate a PDF report?
 Open an inspection and tap the **PDF Preview** button. From there you can preview, share, or export the report.
 
-### Is InspectPro really free?
-Yes. All features are available at no cost with no in-app purchases.
+### How does the free trial work?
+InspectPro offers a **10-day free trial** with full access to all features. After the trial, a company subscription is required to continue creating inspections and exporting reports. Subscriptions are managed by your company administrator.
 
 ### Is InspectPro available on Android?
 InspectPro is currently available on iOS only. We do not have a confirmed timeline for an Android release at this time.
 
 ### What data does InspectPro collect?
-All your data is stored locally on your device. We do not upload, track, or have access to your inspection data, photos, or client information. See our [Privacy Policy](PRIVACY_POLICY.md) for full details.
+Your inspection data, photos, and client information are stored locally on your device. When you use the **Approval Workflow** or **Send to Client** features, finalised PDF reports are temporarily uploaded to Supabase Storage to enable those features — approval PDFs are deleted after 72 hours, client delivery PDFs after 7 days. We do not access your data for any other purpose. See our [Privacy Policy](PRIVACY_POLICY.md) for full details.
 
 ### Can I transfer my data to another device?
 You can export your settings configuration via the app's Settings screen and import it on another device. Inspection data is stored locally and is not automatically synced between devices.

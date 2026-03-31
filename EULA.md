@@ -6,7 +6,7 @@
 
 ## 1. Agreement
 
-This End User License Agreement ("EULA") is a legal agreement between you ("User") and InspectPro (operated by AI Consultants Ltd, "we", "our", or "us") for the use of the InspectPro mobile application and related services (collectively, "the App").
+This End User License Agreement ("EULA") is a legal agreement between you ("User") and InspectPro (operated by Selah AI Consulting Ltd, "we", "our", or "us") for the use of the InspectPro mobile application and related services (collectively, "the App").
 
 InspectPro is available to both individual solo inspectors subscribing directly and to organisations or companies whose employees or contractors use the App under an organisational subscription.
 
@@ -278,7 +278,7 @@ This EULA, together with our Privacy Policy, Terms of Use, and Billing Policy, c
 
 If you have questions about this EULA, please contact us:
 
-**InspectPro / AI Consultants Ltd**
+**InspectPro / Selah AI Consulting Ltd**
 **Email:** support@aiconsult.co.nz
 
 ---

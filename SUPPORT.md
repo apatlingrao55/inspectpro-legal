@@ -2,7 +2,7 @@
 
 ## Contact Us
 
-InspectPro is operated by AI Consult Ltd.
+InspectPro is operated by Selah AI Consulting Ltd.
 
 **NZBN**: 9429052142376
 **Address**: 25 Edinburgh Avenue, Rosehill, Papakura 2113, New Zealand

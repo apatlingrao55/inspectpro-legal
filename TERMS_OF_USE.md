@@ -2,7 +2,7 @@
 
 **Version 5.0 — Last Updated: March 2026**
 
-These Terms of Use ("Terms") govern your use of InspectPro ("the App"), a property inspection reporting application operated by AI Consultants Ltd ("InspectPro", "we", "us", "our"). By downloading, installing, or using the App, you agree to these Terms. If you do not agree, do not use the App.
+These Terms of Use ("Terms") govern your use of InspectPro ("the App"), a property inspection reporting application operated by Selah AI Consulting Ltd ("InspectPro", "we", "us", "our"). By downloading, installing, or using the App, you agree to these Terms. If you do not agree, do not use the App.
 
 These Terms are governed by New Zealand law. Nothing in these Terms limits or excludes any rights you have under the Consumer Guarantees Act 1993 (CGA), the Fair Trading Act 1986 (FTA), the Privacy Act 2020, or any other applicable New Zealand legislation that cannot lawfully be excluded.
 
@@ -236,7 +236,7 @@ This indemnification obligation does not apply to the extent that a claim arises
 
 ### 12.1 Our IP
 
-InspectPro, its design, software, trademarks, and all associated intellectual property rights are owned by or licensed to AI Consultants Ltd. These Terms do not transfer any ownership of our intellectual property to you.
+InspectPro, its design, software, trademarks, and all associated intellectual property rights are owned by or licensed to Selah AI Consulting Ltd. These Terms do not transfer any ownership of our intellectual property to you.
 
 ### 12.2 Your License
 
@@ -366,7 +366,7 @@ If you download the App from the Apple App Store, Apple's App Store terms and co
 
 ## 20. Contact Us
 
-**AI Consultants Ltd — InspectPro Support**
+**Selah AI Consulting Ltd — InspectPro Support**
 Email: support@aiconsult.co.nz
 
 For privacy concerns or requests to access/correct your personal information, please refer to our Privacy Policy or contact us at the email above.

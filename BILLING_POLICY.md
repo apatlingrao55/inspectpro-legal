@@ -29,7 +29,7 @@ If you are unsure which category applies to your situation, contact us at billin
 InspectPro offers a **10-day free trial** to new users. No payment method is required to start a trial.
 
 **How the trial works:**
-- Download the app and begin using InspectPro immediately — no account or credit card is required.
+- Create an account with a valid email address to begin your trial — no credit card is required.
 - All subscription features are fully available during the trial period.
 - The trial applies once per device. If you create an account, the trial applies once per account.
 

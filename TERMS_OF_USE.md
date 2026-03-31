@@ -41,7 +41,7 @@ InspectPro is available free of charge for **10 days** with full functionality. 
 During the trial:
 - All report data is stored locally on your device.
 - We collect limited diagnostic and usage data as described in our Privacy Policy.
-- No account is required to access core features, though creating an account is recommended to enable cloud backup and subscription continuity.
+- An account is required to use the App. You must register with a valid email address before you can access any features.
 
 After the 10-day trial, a subscription is required to export reports. Your locally saved data remains accessible on your device. We recommend exporting any important reports before your trial expires if you do not intend to subscribe.
 

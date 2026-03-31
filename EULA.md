@@ -39,7 +39,7 @@ If you subscribe directly as an individual under the InspectPro subscription (**
 
 ### 3.2 Free Trial
 
-You may use the App free of charge for 10 days without an account. After the trial period, a Solo or Company subscription is required to continue using the App.
+To use the App, you must register and create an account with a valid email address. A 10-day free trial is provided upon account creation, with full access to all features. After the trial period ends, a subscription is required to continue using the App. The App will lock and no new inspections can be created until a subscription is activated.
 
 If you do not subscribe at the end of the trial period, your ability to create new reports and export content will be suspended. Your existing locally stored data will remain on your device. You may subscribe at any time to restore full functionality.
 

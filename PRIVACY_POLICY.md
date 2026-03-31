@@ -1,6 +1,6 @@
 # InspectPro Privacy Policy
 
-**Version 2.0 — Last Updated: March 2026**
+**Version 2.1 — Last Updated: March 2026**
 
 ## Introduction
 
@@ -22,9 +22,19 @@ InspectPro ("we", "our", or "us") is committed to protecting your privacy. This 
 
 ### Inspection Data — Local Storage
 - Inspection photos, client information, and report data are stored locally on your device
-- **We do NOT upload your inspection data to any external servers**
-- **We do NOT have access to your inspection content**
+- Inspection data stays on your device under your control
+- When you use the Approval Workflow or Send to Client features, finalised PDF reports are temporarily uploaded to enable these features (see below)
 - You are responsible for backing up your own data
+
+### Report PDFs — Supabase Storage
+To enable the Approval Workflow and Send to Client features, finalised inspection PDF reports are temporarily uploaded to Supabase Storage. This is necessary to provide a better customer experience — enabling inspectors to submit reports for manager approval and deliver them directly to clients with a single tap.
+
+- **What is uploaded:** Complete PDF reports, which may contain client names, property addresses, inspection photos, area notes, severity ratings, and recommendations
+- **When:** Only when you explicitly use Approval Workflow (submit for approval) or Send to Client
+- **Who initiates it:** You — these uploads are always user-triggered
+- **Retention:** Approval PDFs are automatically deleted after 72 hours. Client delivery PDFs are automatically deleted after 7 days.
+- **Access:** Files are scoped to your company account and accessible only via time-limited signed URLs
+- **Encryption:** All data is encrypted in transit (TLS) and at rest
 
 ### Account & Subscription Data — Supabase
 - Account credentials (email, encrypted password) are stored securely via **Supabase**, our authentication and database provider
@@ -40,9 +50,9 @@ InspectPro ("we", "our", or "us") is committed to protecting your privacy. This 
 
 The app uses the following third-party services:
 
-### Supabase (Authentication & Database)
-- **Purpose**: User authentication, company membership, and subscription verification
-- **Data shared**: Email address, company association
+### Supabase (Authentication, Database & Storage)
+- **Purpose**: User authentication, company membership, subscription verification, and temporary PDF storage for Approval Workflow and Send to Client features
+- **Data shared**: Email address, company association, and temporarily — PDF reports uploaded via Approval Workflow or Send to Client (see Report PDFs section above)
 - **Privacy policy**: [supabase.com/privacy](https://supabase.com/privacy)
 
 ### Stripe (Payment Processing)
@@ -57,6 +67,7 @@ Your information is used solely to:
 - Store your inspection history on your device (local)
 - Authenticate your account (Supabase)
 - Verify your company subscription status (Supabase)
+- Host PDF reports temporarily on Supabase Storage to enable approval and client delivery workflows
 
 ## Data Sharing
 
@@ -66,6 +77,8 @@ Your data only leaves your device when:
 - You explicitly choose to share a PDF report via email, messaging, or other apps
 - You sign in to your account (email sent to Supabase for authentication)
 - Your subscription status is verified (company membership query sent to Supabase)
+- You submit an inspection for approval — the PDF is uploaded to Supabase Storage and automatically deleted after 72 hours
+- You use Send to Client — the PDF is uploaded to Supabase Storage and automatically deleted after 7 days
 
 ## Data Security
 
@@ -74,6 +87,7 @@ We implement appropriate security measures to protect your information:
 - Authentication tokens are encrypted using AES-256 encryption before storage
 - Encryption keys are stored in the device's secure enclave (Expo SecureStore)
 - All network communication uses HTTPS/TLS encryption
+- Uploaded PDFs are scoped to your company account and accessible only via time-limited signed URLs
 
 ## Your Rights
 
@@ -97,6 +111,8 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 - **Local data** is retained on your device until you delete individual inspections, uninstall the application, or clear the app's data through device settings
 - **Account data** is retained until you request account deletion
 - **Subscription data** is retained as long as your company has an active subscription
+- **Approval PDFs**: automatically deleted from Supabase Storage after 72 hours
+- **Client delivery PDFs**: automatically deleted from Supabase Storage after 7 days
 
 ## California Privacy Rights (CCPA)
 
@@ -119,7 +135,7 @@ Inspection data is stored locally on your device, giving you full control. Accou
 
 If you have questions about this Privacy Policy or our privacy practices, please contact us at:
 
-**Email**: privacy@aiconsult.co.nz
+**Email**: dev@aiconsult.co.nz
 
 ---
 

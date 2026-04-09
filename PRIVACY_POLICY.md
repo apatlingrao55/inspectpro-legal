@@ -52,7 +52,7 @@ We collect personal information only for the following purposes:
 |------|---------|------------|
 | Email address and password | Account authentication and subscription management | Contract performance |
 | Client and inspection data | Generating inspection reports on your device | Contract performance |
-| Photos and notes | Local report creation and backend data recovery backup (see Section 4) | Contract performance |
+| Photos and notes | Local report creation and optional iCloud backup (see Section 4) | Contract performance |
 | Subscription status | Verifying your access to the service | Contract performance |
 | Device information | App compatibility and troubleshooting | Legitimate interest |
 
@@ -71,14 +71,17 @@ All inspection data — including photos, notes, client details, report history,
 - Uninstalling the app removes all locally stored data
 - We recommend maintaining your own device backups via iCloud or iTunes as an additional precaution
 
-### 4.2 Supabase — Data Loss Recovery Backup
-To protect you from data loss in the event of device failure, theft, or replacement, InspectPro automatically syncs your inspection data — including **compressed photos, notes, and report content** — to our Supabase-hosted backend.
+### 4.2 Backup Options
 
-**Important:** This sync exists solely as a data loss recovery mechanism. It is not general cloud storage. The primary copy of your data remains on your device. Supabase is used only to restore your data if your device is lost or damaged.
+InspectPro provides two backup mechanisms. **You are responsible for maintaining your own backups.**
 
-- Synced data is encrypted in transit (TLS) and at rest
-- Synced data is scoped to your account and not accessible to other users
-- Supabase hosts infrastructure in the United States and Europe (see Section 5 — Offshore Data)
+**iCloud Backup (automatic, on completion)**
+When you mark an inspection as complete or send it to a client, InspectPro automatically saves a copy of that inspection (including photos) to your iCloud Drive, if iCloud is enabled on your device. This backup is stored in your personal iCloud account and is not accessible to InspectPro.
+
+**Manual Backup (user-initiated)**
+You can create a full backup of all your data at any time via **Settings → Data Management → Backup**. This generates a ZIP file containing all inspections, photos, and settings, which you can save to your preferred location (Files, email, cloud storage, etc.). You can restore from a backup ZIP via the same screen.
+
+**Important:** InspectPro does not automatically sync inspection data to our servers. Your inspection data, photos, and notes are stored locally on your device only. We strongly recommend performing regular backups, particularly before uninstalling the app, changing devices, or after completing important inspections.
 
 ### 4.3 Supabase — Account and Subscription Data
 Your account credentials (email, encrypted password hash) and subscription/membership status are stored in Supabase's hosted PostgreSQL database. This is required to authenticate your account and verify your subscription.
@@ -107,7 +110,7 @@ Some of your personal information is transferred to and stored offshore, via our
 
 | Provider | Data transferred | Location |
 |----------|-----------------|----------|
-| Supabase | Account data, backup data, temporary PDFs | United States, Europe |
+| Supabase | Account data, temporary PDFs | United States, Europe |
 | Stripe | Payment processing (handled on Stripe's infrastructure) | United States |
 
 **Supabase** participates in industry-standard data protection frameworks. Their privacy policy is available at [supabase.com/privacy](https://supabase.com/privacy).
@@ -118,9 +121,9 @@ Some of your personal information is transferred to and stored offshore, via our
 
 ## 6. Third-Party Services
 
-### 6.1 Supabase (Authentication, Database, Storage, and Backup)
-- **Purpose:** Account authentication, subscription verification, data loss recovery backup, and temporary PDF storage for Approval Workflow and Send to Client features
-- **Data shared:** Email address, encrypted password hash, subscription status, compressed inspection data and photos (backup only), and temporary PDF uploads
+### 6.1 Supabase (Authentication, Database, Storage)
+- **Purpose:** Account authentication, subscription verification, and temporary PDF storage for Approval Workflow and Send to Client features
+- **Data shared:** Email address, encrypted password hash, subscription status, and temporary PDF uploads
 - **Privacy policy:** [supabase.com/privacy](https://supabase.com/privacy)
 
 ### 6.2 Stripe (Payment Processing)
@@ -136,7 +139,7 @@ Some of your personal information is transferred to and stored offshore, via our
 
 Your data is only disclosed in the following circumstances:
 
-- **To Supabase** — as described in Section 4 (storage, backup, authentication, temporary PDFs)
+- **To Supabase** — as described in Section 4 (authentication, subscription verification, temporary PDFs)
 - **To Stripe** — for payment processing when you subscribe or manage your billing
 - **By you** — when you explicitly share a PDF report via email, messaging, or other apps on your device
 - **If required by law** — in response to a valid legal obligation, court order, or request from a regulatory authority with jurisdiction over our business
@@ -151,7 +154,7 @@ We implement reasonable security safeguards appropriate to the sensitivity of th
 - **Local device storage:** Protected by your device's built-in security (iOS encryption, biometric lock)
 - **Authentication tokens:** Encrypted using AES-256 before storage, with keys held in the device's Secure Enclave (Expo SecureStore)
 - **Network communication:** All data transfers use HTTPS/TLS encryption
-- **Supabase backup data:** Encrypted in transit and at rest; scoped to your account
+- **Supabase account data:** Encrypted in transit and at rest; scoped to your account
 - **Temporary PDFs:** Scoped to your company account; accessible only via time-limited signed URLs; auto-deleted after 72 hours or 7 days as applicable
 
 Despite our best efforts, no system is completely secure. If you become aware of any security issue, please contact our Privacy Officer immediately.
@@ -193,7 +196,7 @@ We do not retain personal information longer than necessary for the purposes for
 | Data type | Retention period |
 |-----------|-----------------|
 | Local inspection data | Until you delete it or uninstall the app |
-| Supabase backup data (inspection data and photos) | Until you request account deletion |
+| iCloud backup data (completed inspections) | Managed by your iCloud account settings |
 | Account data (email, credentials) | Until you request account deletion, then deleted within 30 days |
 | Subscription/billing history | Up to 7 years for financial compliance (NZ tax law) |
 | Approval Workflow PDFs | Auto-deleted 72 hours after upload |

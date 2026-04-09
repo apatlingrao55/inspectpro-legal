@@ -402,7 +402,7 @@
 <table><tr><th>Data</th><th>Purpose</th><th>Legal basis</th></tr>
 <tr><td>Email address and password</td><td>Account authentication and subscription management</td><td>Contract performance</td></tr>
 <tr><td>Client and inspection data</td><td>Generating inspection reports on your device</td><td>Contract performance</td></tr>
-<tr><td>Photos and notes</td><td>Local report creation and backend data recovery backup (see Section 4)</td><td>Contract performance</td></tr>
+<tr><td>Photos and notes</td><td>Local report creation and optional iCloud backup (see Section 4)</td><td>Contract performance</td></tr>
 <tr><td>Subscription status</td><td>Verifying your access to the service</td><td>Contract performance</td></tr>
 <tr><td>Device information</td><td>App compatibility and troubleshooting</td><td>Legitimate interest</td></tr>
 </table>
@@ -417,14 +417,13 @@
 <li>Uninstalling the app removes all locally stored data</li>
 <li>We recommend maintaining your own device backups via iCloud or iTunes as an additional precaution</li>
 </ul>
-<h3>4.2 Supabase — Data Loss Recovery Backup</h3>
-<p>To protect you from data loss in the event of device failure, theft, or replacement, InspectPro automatically syncs your inspection data — including <strong>compressed photos, notes, and report content</strong> — to our Supabase-hosted backend.</p>
-<p><strong>Important:</strong> This sync exists solely as a data loss recovery mechanism. It is not general cloud storage. The primary copy of your data remains on your device. Supabase is used only to restore your data if your device is lost or damaged.</p>
-<ul>
-<li>Synced data is encrypted in transit (TLS) and at rest</li>
-<li>Synced data is scoped to your account and not accessible to other users</li>
-<li>Supabase hosts infrastructure in the United States and Europe (see Section 5 — Offshore Data)</li>
-</ul>
+<h3>4.2 Backup Options</h3>
+<p>InspectPro provides two backup mechanisms. <strong>You are responsible for maintaining your own backups.</strong></p>
+<p><strong>iCloud Backup (automatic, on completion)</strong></p>
+<p>When you mark an inspection as complete or send it to a client, InspectPro automatically saves a copy of that inspection (including photos) to your iCloud Drive, if iCloud is enabled on your device. This backup is stored in your personal iCloud account and is not accessible to InspectPro.</p>
+<p><strong>Manual Backup (user-initiated)</strong></p>
+<p>You can create a full backup of all your data at any time via <strong>Settings → Data Management → Backup</strong>. This generates a ZIP file containing all inspections, photos, and settings, which you can save to your preferred location (Files, email, cloud storage, etc.). You can restore from a backup ZIP via the same screen.</p>
+<p><strong>Important:</strong> InspectPro does not automatically sync inspection data to our servers. Your inspection data, photos, and notes are stored locally on your device only. We strongly recommend performing regular backups, particularly before uninstalling the app, changing devices, or after completing important inspections.</p>
 <h3>4.3 Supabase — Account and Subscription Data</h3>
 <p>Your account credentials (email, encrypted password hash) and subscription/membership status are stored in Supabase's hosted PostgreSQL database. This is required to authenticate your account and verify your subscription.</p>
 <ul>
@@ -447,7 +446,7 @@
 <h2>5. Offshore Data Transfer (IPP 13)</h2>
 <p>Some of your personal information is transferred to and stored offshore, via our third-party service providers. Before any offshore transfer, we take reasonable steps to ensure that the recipient country or organisation provides comparable privacy protections to those required under the New Zealand Privacy Act 2020.</p>
 <table><tr><th>Provider</th><th>Data transferred</th><th>Location</th></tr>
-<tr><td>Supabase</td><td>Account data, backup data, temporary PDFs</td><td>United States, Europe</td></tr>
+<tr><td>Supabase</td><td>Account data, temporary PDFs</td><td>United States, Europe</td></tr>
 <tr><td>Stripe</td><td>Payment processing (handled on Stripe's infrastructure)</td><td>United States</td></tr>
 </table>
 <p><strong>Supabase</strong> participates in industry-standard data protection frameworks. Their privacy policy is available at <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</p>
@@ -456,8 +455,8 @@
 <h2>6. Third-Party Services</h2>
 <h3>6.1 Supabase (Authentication, Database, Storage, and Backup)</h3>
 <ul>
-<li><strong>Purpose:</strong> Account authentication, subscription verification, data loss recovery backup, and temporary PDF storage for Approval Workflow and Send to Client features</li>
-<li><strong>Data shared:</strong> Email address, encrypted password hash, subscription status, compressed inspection data and photos (backup only), and temporary PDF uploads</li>
+<li><strong>Purpose:</strong> Account authentication, subscription verification, and temporary PDF storage for Approval Workflow and Send to Client features</li>
+<li><strong>Data shared:</strong> Email address, encrypted password hash, subscription status, and temporary PDF uploads</li>
 <li><strong>Privacy policy:</strong> <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
 </ul>
 <h3>6.2 Stripe (Payment Processing)</h3>
@@ -471,7 +470,7 @@
 <p><strong>We do not sell, rent, or share your personal information with third parties for marketing or commercial purposes.</strong></p>
 <p>Your data is only disclosed in the following circumstances:</p>
 <ul>
-<li><strong>To Supabase</strong> — as described in Section 4 (storage, backup, authentication, temporary PDFs)</li>
+<li><strong>To Supabase</strong> — as described in Section 4 (authentication, subscription verification, temporary PDFs)</li>
 <li><strong>To Stripe</strong> — for payment processing when you subscribe or manage your billing</li>
 <li><strong>By you</strong> — when you explicitly share a PDF report via email, messaging, or other apps on your device</li>
 <li><strong>If required by law</strong> — in response to a valid legal obligation, court order, or request from a regulatory authority with jurisdiction over our business</li>
@@ -484,7 +483,7 @@
 <li><strong>Local device storage:</strong> Protected by your device's built-in security (iOS encryption, biometric lock)</li>
 <li><strong>Authentication tokens:</strong> Encrypted using AES-256 before storage, with keys held in the device's Secure Enclave (Expo SecureStore)</li>
 <li><strong>Network communication:</strong> All data transfers use HTTPS/TLS encryption</li>
-<li><strong>Supabase backup data:</strong> Encrypted in transit and at rest; scoped to your account</li>
+<li><strong>Supabase account data:</strong> Encrypted in transit and at rest; scoped to your account</li>
 <li><strong>Temporary PDFs:</strong> Scoped to your company account; accessible only via time-limited signed URLs; auto-deleted after 72 hours or 7 days as applicable</li>
 </ul>
 <p>Despite our best efforts, no system is completely secure. If you become aware of any security issue, please contact our Privacy Officer immediately.</p>
@@ -515,7 +514,7 @@
 <p>We do not retain personal information longer than necessary for the purposes for which it was collected.</p>
 <table><tr><th>Data type</th><th>Retention period</th></tr>
 <tr><td>Local inspection data</td><td>Until you delete it or uninstall the app</td></tr>
-<tr><td>Supabase backup data (inspection data and photos)</td><td>Until you request account deletion</td></tr>
+<tr><td>iCloud backup data (completed inspections)</td><td>Managed by your iCloud account settings</td></tr>
 <tr><td>Account data (email, credentials)</td><td>Until you request account deletion, then deleted within 30 days</td></tr>
 <tr><td>Subscription/billing history</td><td>Up to 7 years for financial compliance (NZ tax law)</td></tr>
 <tr><td>Approval Workflow PDFs</td><td>Auto-deleted 72 hours after upload</td></tr>

@@ -96,8 +96,8 @@
 </ul>
 <p>Where these Terms draw a distinction between consumer and business use:</p>
 <ul>
-<li><strong>Consumers</strong> are individuals acquiring the App for personal or small-business use, not primarily for re-supply or business purposes. The CGA and FTA consumer protections apply to consumers.</li>
-<li><strong>Business users</strong> are entities (companies, partnerships, or sole traders) acquiring the App wholly or predominantly for business purposes. Business users may contract out of certain statutory guarantees where permitted by law.</li>
+<li><strong>Consumers</strong> are individuals or businesses acquiring the App where the total price paid does not exceed NZD $40,000 (including GST), or where the App is acquired for personal, domestic, or household use. The Consumer Guarantees Act 1993 and Fair Trading Act 1986 consumer protections apply to consumers.</li>
+<li><strong>Business users</strong> are entities acquiring the App wholly or predominantly for business purposes where the total price exceeds NZD $40,000 (including GST) and the acquisition is not of a kind ordinarily acquired for personal, domestic, or household use. Business users may contract out of certain statutory guarantees where permitted by law (CGA s 43).</li>
 </ul>
 <p>If you are unsure which category applies to you, please contact us.</p>
 <hr>
@@ -114,7 +114,7 @@
 <h2>4. Subscriptions</h2>
 <h3>4.1 Subscription Plans</h3>
 <p>InspectPro offers a single flat-rate monthly subscription — <strong>$90.85/month NZD (inc. GST) / $79.00/month ex-GST</strong> — with full access to all features for all users.</p>
-<p>Multi-seat and enterprise arrangements may be introduced in future. Prices may change at any time without prior notice. Continued use of the App after a price change constitutes acceptance of the new price. Consumer users (under the Consumer Guarantees Act 1993) may cancel within 30 days of a price change if they do not accept the new price. Full billing terms and cancellation rights are set out in our <a href="./BILLING_POLICY.md">Billing Policy</a>.</p>
+<p>Multi-seat and enterprise arrangements may be introduced in future. We will give you at least <strong>30 days' written notice</strong> (by email and/or in-app notification) before any price increase takes effect. If you do not accept the new price, you may cancel your subscription before the new price applies. Continuing to use the App after the new price takes effect constitutes acceptance of the new price. Nothing in this clause limits your rights under the Consumer Guarantees Act 1993 or the Fair Trading Act 1986. Full billing terms and cancellation rights are set out in our <a href="./BILLING_POLICY.md">Billing Policy</a>.</p>
 <h3>4.2 Solo Inspector Subscriptions</h3>
 <p>Individual inspectors subscribe directly to InspectPro. A subscription provides one user with full access to all App features, including unlimited report exports.</p>
 <h3>4.3 Enterprise (Company) Subscriptions</h3>
@@ -320,6 +320,14 @@
 <li>Your subscription will not be renewed</li>
 <li>Your locally stored data remains on your device and is not deleted by us as a result of termination</li>
 <li>Any pending PDF uploads subject to a deletion window will be deleted in accordance with the schedule in clause 6.3</li>
+</ul>
+<h3>16.4 Account Deletion</h3>
+<p>You may request deletion of your account at any time. Before requesting account deletion, you must cancel any active subscription. Upon account deletion:</p>
+<ul>
+<li>Account data held on our servers will be deleted within 30 days of the deletion request.</li>
+<li>Any temporary PDFs (Approval Workflow or Send to Client) that have not yet been automatically deleted will be queued for deletion.</li>
+<li>All local data on your device will be permanently deleted when the App is uninstalled or when you clear app data.</li>
+<li>Account deletion is irreversible. We recommend exporting any important data before requesting deletion.</li>
 </ul>
 <hr>
 <h2>17. Dispute Resolution</h2>
@@ -571,7 +579,7 @@
 <h2>2. Consumer Rights — CGA Notice</h2>
 <p><strong>Nothing in this EULA excludes, restricts, or modifies any right or remedy you have under the Consumer Guarantees Act 1993 (CGA) or the Fair Trading Act 1986 (FTA) that cannot be excluded or limited by law.</strong></p>
 <p>If you are a <strong>consumer</strong> (an individual acquiring the App for personal use or for a business that is not acquiring the App in trade), you have statutory guarantees that the App will be of acceptable quality, fit for its purpose, and that our services will be performed with reasonable care and skill.</p>
-<p>If you are acquiring the App <strong>in trade</strong> (as a business purchaser within the meaning of s2 of the CGA), you agree that the guarantees under the CGA do not apply to this transaction, to the maximum extent permitted by law.</p>
+<p>If you are acquiring the App <strong>in trade</strong> (as a business purchaser) and both parties agree it is fair and reasonable to contract out of the CGA guarantees, the parties agree pursuant to <strong>s 43 of the CGA</strong> that the guarantees under the CGA do not apply to this transaction, to the extent permitted by law. This exclusion only applies where the acquisition is wholly or predominantly for business purposes and the exclusion is fair and reasonable in the circumstances.</p>
 <hr>
 <h2>3. License Grant</h2>
 <h3>3.1 Solo and Pro User License</h3>
@@ -636,7 +644,7 @@
 </ul>
 <p>Outside of these user-initiated flows, we do not access or process your inspection content for any purpose.</p>
 <h3>6.5 Data on Termination</h3>
-<p>On account termination or subscription cancellation, your account data in Supabase will be deleted within <strong>30 days</strong> of the termination date. Pending PDF delivery files will be deleted on their automated schedule (72h / 7 days). Your locally stored data remains under your control and is not affected by account termination.</p>
+<p>On account termination or subscription cancellation, your account data in Supabase will be retained for up to <strong>90 days</strong> following the termination date to allow for account recovery or data export, after which it will be permanently deleted. Pending PDF delivery files will be deleted on their automated schedule (72h / 7 days). Your locally stored data remains under your control and is not affected by account termination.</p>
 <hr>
 <h2>7. Subscription and Payment</h2>
 <p>Subscription billing, trial periods, cancellation, refund, and payment terms are set out in our <a href="./BILLING_POLICY.md">Billing Policy</a>. We do not process or store payment card information — all payments are handled securely by Stripe. In the event of any conflict between this EULA and the Billing Policy on billing matters, the Billing Policy prevails.</p>
@@ -693,7 +701,7 @@
 <ul>
 <li>Your right to use the App ceases immediately</li>
 <li>Your locally stored data remains on your device</li>
-<li>Cloud backup data will be deleted within 30 days (see Section 6.5)</li>
+<li>Server-side account data (account information and any pending temporary PDF files) will be deleted in accordance with Section 6.5</li>
 <li>Sections 4, 5, 9, 10, 12, and 13 survive termination</li>
 </ul>
 <hr>
@@ -786,8 +794,9 @@
 <ul>
 <li>Create an account with a valid email address to begin your trial — no credit card is required.</li>
 <li>All subscription features are fully available during the trial period.</li>
-<li>The trial applies once per device. If you create an account, the trial applies once per account.</li>
+<li>The trial applies once per account.</li>
 </ul>
+<p><strong>Auto-renewal and consumer rights:</strong> If you subscribe during or after your trial, your subscription will automatically renew at the end of each billing period. If you are charged without adequate prior notice of the renewal or the amount, you may be entitled to a refund under the Consumer Guarantees Act 1993. Contact us at billing@aiconsult.co.nz if you believe you were charged without adequate notice.</p>
 <p><strong>At the end of your trial:</strong></p>
 <ul>
 <li>If you have <strong>not</strong> entered a payment method: paid features will be locked at the end of day 10. You can still view and export any inspections completed during the trial period at no charge.</li>
@@ -802,7 +811,7 @@
 <tr><td>InspectPro</td><td>$90.85/month</td><td>$79.00/month</td></tr>
 </table>
 <p><em><strong>GST note:</strong> $90.85/month is the GST-inclusive price (15% GST applied). Ex-GST price is $79.00/month. GST-itemised invoices are available from the Stripe Customer Portal.</em></p>
-<p>Multi-seat and enterprise arrangements may be introduced in future. Prices may change at any time without prior notice. Continued use of the App after a price change takes effect constitutes acceptance of the new price. Where you are a consumer under the Consumer Guarantees Act 1993 (NZ), you retain the right to cancel your subscription within 30 days of a price change if you do not accept the new price.</p>
+<p>Multi-seat and enterprise arrangements may be introduced in future. We will give you at least <strong>30 days' written notice</strong> (by email and/or in-app notification) before any price increase takes effect. The new price will not apply until the start of your next billing period following the expiry of the notice period. If you do not accept the new price, you may cancel your subscription without penalty before the new price applies. Continuing to use the App after the new price takes effect constitutes acceptance of the new price. For consumer users, your rights under the Consumer Guarantees Act 1993 are not affected by any price change.</p>
 <p>Current pricing is available at <a href="https://inspectpro.co.nz/pricing">inspectpro.co.nz/pricing</a>.</p>
 <p><strong>Price changes:</strong> We may change subscription pricing. We will provide <strong>at least 30 days' written notice</strong> of any price increase by email to your registered address and by notice within the App. For consumer users, the new price will not apply until the start of your next billing period following the notice period, and you may cancel before that date without penalty.</p>
 <p><strong>Annual plans:</strong> Annual subscription options may be offered in the future. If annual billing is available, specific terms (including cancellation and refund rights for annual subscriptions) will be disclosed at the point of purchase.</p>

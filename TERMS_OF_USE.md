@@ -117,7 +117,6 @@ If your content includes personal information about third parties (e.g., propert
 InspectPro uses a **hybrid storage model**:
 
 - **Primary storage: your device.** All inspection data (reports, notes, photos) is stored locally on your device. This is the primary and authoritative copy of your data.
-- **iCloud backup (automatic).** When you mark an inspection as complete or send it to a client, a copy is saved to your iCloud Drive (if enabled on your device). This backup is stored in your personal iCloud account.
 - **Manual backup (user-initiated).** You can create a full backup of all data via Settings → Data Management. We recommend regular backups.
 - **Supabase (account data only).** Your account credentials and subscription status are stored securely via Supabase. Inspection data is NOT automatically synced to our servers.
 - **Temporary PDF uploads.** When you use the Approval Workflow or Send to Client features, finalised PDF reports are temporarily uploaded to Supabase Storage to enable those features. These PDFs are automatically deleted as follows:
@@ -126,11 +125,11 @@ InspectPro uses a **hybrid storage model**:
 
 We recommend saving a local or exported copy of any important PDFs before the applicable deletion window, as we cannot recover deleted PDFs.
 
-Outside of the above iCloud backup and temporary PDF upload processes, we do not access your inspection content for any purpose other than providing and improving the App.
+Outside of the above temporary PDF upload processes, we do not access your inspection content for any purpose other than providing and improving the App.
 
 ### 6.4 Data Responsibility
 
-**You are responsible for maintaining your own backups.** We provide backup tools (iCloud auto-backup on completion, manual ZIP export via Settings) but no backup system is infallible. We strongly recommend performing regular manual backups via Settings → Data Management, particularly before uninstalling the App, changing devices, or cancelling your subscription.
+**You are responsible for maintaining your own backups.** We provide a manual ZIP backup/export tool via Settings → Data Management, but no backup system is infallible. We strongly recommend performing regular backups, particularly before uninstalling the App, changing devices, or cancelling your subscription.
 
 ### 6.5 Enterprise Data and Inspector Data
 

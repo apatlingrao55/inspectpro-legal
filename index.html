@@ -163,7 +163,6 @@
 <p>InspectPro uses a <strong>hybrid storage model</strong>:</p>
 <ul>
 <li><strong>Primary storage: your device.</strong> All inspection data (reports, notes, photos) is stored locally on your device. This is the primary and authoritative copy of your data.</li>
-<li><strong>iCloud backup (automatic).</strong> When you mark an inspection as complete or send it to a client, a copy is saved to your iCloud Drive (if enabled on your device). This backup is stored in your personal iCloud account.</li>
 <li><strong>Manual backup (user-initiated).</strong> You can create a full backup of all data via Settings → Data Management. We recommend regular backups.</li>
 <li><strong>Supabase (account data only).</strong> Your account credentials and subscription status are stored securely via Supabase. Inspection data is NOT automatically synced to our servers.</li>
 <li><strong>Temporary PDF uploads.</strong> When you use the Approval Workflow or Send to Client features, finalised PDF reports are temporarily uploaded to Supabase Storage to enable those features. These PDFs are automatically deleted as follows:</li>
@@ -171,9 +170,9 @@
 <p>- <strong>Approval workflow PDFs:</strong> deleted 72 hours after upload</p>
 <p>- <strong>Client delivery PDFs:</strong> deleted 7 days after upload</p>
 <p>We recommend saving a local or exported copy of any important PDFs before the applicable deletion window, as we cannot recover deleted PDFs.</p>
-<p>Outside of the above iCloud backup and temporary PDF upload processes, we do not access your inspection content for any purpose other than providing and improving the App.</p>
+<p>Outside of the above temporary PDF upload processes, we do not access your inspection content for any purpose other than providing and improving the App.</p>
 <h3>6.4 Data Responsibility</h3>
-<p><strong>You are responsible for maintaining your own backups.</strong> We provide backup tools (iCloud auto-backup on completion, manual ZIP export via Settings) but no backup system is infallible. We strongly recommend performing regular manual backups via Settings → Data Management, particularly before uninstalling the App, changing devices, or cancelling your subscription.</p>
+<p><strong>You are responsible for maintaining your own backups.</strong> We provide a manual ZIP backup/export tool via Settings → Data Management, but no backup system is infallible. We strongly recommend performing regular backups, particularly before uninstalling the App, changing devices, or cancelling your subscription.</p>
 <h3>6.5 Enterprise Data and Inspector Data</h3>
 <p><strong>Enterprise subscriptions:</strong> Where an inspector creates reports under a company account, the company (as the subscribing entity) and the inspector jointly retain rights over that content. On termination of an enterprise subscription or removal of an inspector's seat:</p>
 <ul>
@@ -404,7 +403,7 @@
 <table><tr><th>Data</th><th>Purpose</th><th>Legal basis</th></tr>
 <tr><td>Email address and password</td><td>Account authentication and subscription management</td><td>Contract performance</td></tr>
 <tr><td>Client and inspection data</td><td>Generating inspection reports on your device</td><td>Contract performance</td></tr>
-<tr><td>Photos and notes</td><td>Local report creation and optional iCloud backup (see Section 4)</td><td>Contract performance</td></tr>
+<tr><td>Photos and notes</td><td>Local report creation (see Section 4)</td><td>Contract performance</td></tr>
 <tr><td>Subscription status</td><td>Verifying your access to the service</td><td>Contract performance</td></tr>
 <tr><td>Device information</td><td>App compatibility and troubleshooting</td><td>Legitimate interest</td></tr>
 </table>
@@ -417,15 +416,13 @@
 <ul>
 <li>You can delete individual inspections, photos, or client records at any time within the app</li>
 <li>Uninstalling the app removes all locally stored data</li>
-<li>We recommend maintaining your own device backups via iCloud or iTunes as an additional precaution</li>
+<li>We recommend maintaining your own backups via the in-app backup feature as an additional precaution</li>
 </ul>
 <h3>4.2 Backup Options</h3>
 <p>InspectPro provides two backup mechanisms. <strong>You are responsible for maintaining your own backups.</strong></p>
-<p><strong>iCloud Backup (automatic, on completion)</strong></p>
-<p>When you mark an inspection as complete or send it to a client, InspectPro automatically saves a copy of that inspection (including photos) to your iCloud Drive, if iCloud is enabled on your device. This backup is stored in your personal iCloud account and is not accessible to InspectPro.</p>
-<p><strong>Manual Backup (user-initiated)</strong></p>
+<h3>4.2 Manual Backup (user-initiated)</h3>
 <p>You can create a full backup of all your data at any time via <strong>Settings → Data Management → Backup</strong>. This generates a ZIP file containing all inspections, photos, and settings, which you can save to your preferred location (Files, email, cloud storage, etc.). You can restore from a backup ZIP via the same screen.</p>
-<p><strong>Important:</strong> InspectPro does not automatically sync inspection data to our servers. Your inspection data, photos, and notes are stored locally on your device only. We strongly recommend performing regular backups, particularly before uninstalling the app, changing devices, or after completing important inspections.</p>
+<p><strong>You are responsible for maintaining your own backups.</strong> InspectPro does not automatically sync inspection data to our servers. Your inspection data, photos, and notes are stored locally on your device only. We strongly recommend performing regular backups, particularly before uninstalling the app, changing devices, or after completing important inspections.</p>
 <h3>4.3 Supabase — Account and Subscription Data</h3>
 <p>Your account credentials (email, encrypted password hash) and subscription/membership status are stored in Supabase's hosted PostgreSQL database. This is required to authenticate your account and verify your subscription.</p>
 <ul>
@@ -516,7 +513,7 @@
 <p>We do not retain personal information longer than necessary for the purposes for which it was collected.</p>
 <table><tr><th>Data type</th><th>Retention period</th></tr>
 <tr><td>Local inspection data</td><td>Until you delete it or uninstall the app</td></tr>
-<tr><td>iCloud backup data (completed inspections)</td><td>Managed by your iCloud account settings</td></tr>
+<tr><td>Manual backup data (ZIP exports)</td><td>Under your control; stored wherever you save the file</td></tr>
 <tr><td>Account data (email, credentials)</td><td>Until you request account deletion, then deleted within 30 days</td></tr>
 <tr><td>Subscription/billing history</td><td>Up to 7 years for financial compliance (NZ tax law)</td></tr>
 <tr><td>Approval Workflow PDFs</td><td>Auto-deleted 72 hours after upload</td></tr>
@@ -627,10 +624,9 @@
 <p>You retain full ownership of all content you create using the App, including photos, inspection notes, and reports. We do not claim any ownership over your inspection content.</p>
 <h3>6.2 Local Storage (Primary)</h3>
 <p>Inspection content is stored primarily on your device. You are responsible for maintaining your own backups and for any loss of locally stored data.</p>
-<h3>6.3 Backup Options</h3>
-<p>InspectPro provides two backup mechanisms. <strong>You are responsible for maintaining your own backups.</strong></p>
-<p><strong>iCloud Backup (automatic):</strong> When you mark an inspection as complete or send it to a client, a copy (including photos) is automatically saved to your iCloud Drive, if enabled on your device. This is stored in your personal iCloud account and is not accessible to InspectPro.</p>
-<p><strong>Manual Backup (user-initiated):</strong> You can create a full backup at any time via <strong>Settings → Data Management → Backup</strong>. This generates a ZIP file containing all inspections, photos, and settings. You can restore from a backup via the same screen.</p>
+<h3>6.3 Manual Backup (user-initiated)</h3>
+<p><strong>You are responsible for maintaining your own backups.</strong></p>
+<p>You can create a full backup at any time via <strong>Settings → Data Management → Backup</strong>. This generates a ZIP file containing all inspections, photos, and settings. You can restore from a backup via the same screen.</p>
 <p>InspectPro does not automatically sync inspection data to our servers. Your inspection content is stored locally on your device only.</p>
 <h3>6.4 Temporary PDF Uploads</h3>
 <p>When you use the <strong>Approval Workflow</strong> or <strong>Send to Client</strong> features, finalised PDF reports are temporarily uploaded to Supabase Storage to enable those delivery flows:</p>
@@ -640,7 +636,7 @@
 </ul>
 <p>Outside of these user-initiated flows, we do not access or process your inspection content for any purpose.</p>
 <h3>6.5 Data on Termination</h3>
-<p>On account termination or subscription cancellation, your account data in Supabase will be deleted within <strong>30 days</strong> of the termination date. Pending PDF delivery files will be deleted on their automated schedule (72h / 7 days). Your locally stored data and iCloud backups remain under your control and are not affected by account termination.</p>
+<p>On account termination or subscription cancellation, your account data in Supabase will be deleted within <strong>30 days</strong> of the termination date. Pending PDF delivery files will be deleted on their automated schedule (72h / 7 days). Your locally stored data remains under your control and is not affected by account termination.</p>
 <hr>
 <h2>7. Subscription and Payment</h2>
 <p>Subscription billing, trial periods, cancellation, refund, and payment terms are set out in our <a href="./BILLING_POLICY.md">Billing Policy</a>. We do not process or store payment card information — all payments are handled securely by Stripe. In the event of any conflict between this EULA and the Billing Policy on billing matters, the Billing Policy prevails.</p>
@@ -980,7 +976,6 @@
 <p>InspectPro uses a hybrid storage model:</p>
 <ul>
 <li><strong>Primary storage:</strong> Your device (iPhone/iPad). Inspection data, photos, and reports are stored locally on the inspecting device. This is the authoritative source of record.</li>
-<li><strong>iCloud backup:</strong> When you mark an inspection as complete, a copy is saved to your iCloud Drive (if enabled). This is stored in your personal iCloud account.</li>
 <li><strong>Manual backup:</strong> You can export a full backup at any time via Settings → Data Management. InspectPro does not automatically sync inspection data to our servers.</li>
 <li><strong>Temporary PDF storage:</strong> When you use the Approval Workflow or Send to Client features, a PDF of this report is temporarily uploaded to secure cloud storage to enable delivery. These PDFs are <strong>automatically and permanently deleted</strong> after:</li>
 </ul>

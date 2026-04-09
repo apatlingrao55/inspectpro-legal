@@ -117,18 +117,20 @@ If your content includes personal information about third parties (e.g., propert
 InspectPro uses a **hybrid storage model**:
 
 - **Primary storage: your device.** All inspection data (reports, notes, photos) is stored locally on your device. This is the primary and authoritative copy of your data.
-- **Cloud fallback: Supabase.** As a fallback for data recovery, photos and account data are also synced to secure cloud storage (Supabase, hosted in accordance with our Privacy Policy). This backup is designed to assist recovery in the event of device failure or loss.
+- **iCloud backup (automatic).** When you mark an inspection as complete or send it to a client, a copy is saved to your iCloud Drive (if enabled on your device). This backup is stored in your personal iCloud account.
+- **Manual backup (user-initiated).** You can create a full backup of all data via Settings → Data Management. We recommend regular backups.
+- **Supabase (account data only).** Your account credentials and subscription status are stored securely via Supabase. Inspection data is NOT automatically synced to our servers.
 - **Temporary PDF uploads.** When you use the Approval Workflow or Send to Client features, finalised PDF reports are temporarily uploaded to Supabase Storage to enable those features. These PDFs are automatically deleted as follows:
   - **Approval workflow PDFs:** deleted 72 hours after upload
   - **Client delivery PDFs:** deleted 7 days after upload
 
 We recommend saving a local or exported copy of any important PDFs before the applicable deletion window, as we cannot recover deleted PDFs.
 
-Outside of the above cloud backup and temporary PDF upload processes, we do not access your inspection content for any purpose other than providing and improving the App.
+Outside of the above iCloud backup and temporary PDF upload processes, we do not access your inspection content for any purpose other than providing and improving the App.
 
 ### 6.4 Data Responsibility
 
-While we take reasonable steps to maintain cloud backup reliability, no backup system is infallible. We recommend you independently export and retain copies of important reports, particularly before uninstalling the App, changing devices, or cancelling your subscription.
+**You are responsible for maintaining your own backups.** We provide backup tools (iCloud auto-backup on completion, manual ZIP export via Settings) but no backup system is infallible. We strongly recommend performing regular manual backups via Settings → Data Management, particularly before uninstalling the App, changing devices, or cancelling your subscription.
 
 ### 6.5 Enterprise Data and Inspector Data
 
@@ -270,7 +272,7 @@ By using the App, you consent to the collection and use of your information as d
 
 The App integrates with the following third-party services:
 - **Stripe** — payment processing
-- **Supabase** — cloud storage and database (used for account data, backup, and temporary PDF storage)
+- **Supabase** — cloud database (used for account data, subscription verification, and temporary PDF storage)
 - **Apple App Store** — app distribution
 
 Your use of these third-party services is subject to their respective terms of service and privacy policies. InspectPro is not responsible for the acts or omissions of these third parties.

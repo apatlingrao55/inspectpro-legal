@@ -95,11 +95,15 @@ You retain full ownership of all content you create using the App, including pho
 
 Inspection content is stored primarily on your device. You are responsible for maintaining your own backups and for any loss of locally stored data.
 
-### 6.3 Cloud Backup (Fallback)
+### 6.3 Backup Options
 
-To protect against data loss (e.g., device failure or reinstallation), your inspection data — including compressed photos and report data — may be synced to our secure cloud servers (Supabase) as a backup. This sync occurs in the background and is used solely for data loss recovery. You may manage or disable this sync in the App's settings where available.
+InspectPro provides two backup mechanisms. **You are responsible for maintaining your own backups.**
 
-Cloud backup data is accessible only to you and is not used for any commercial purpose.
+**iCloud Backup (automatic):** When you mark an inspection as complete or send it to a client, a copy (including photos) is automatically saved to your iCloud Drive, if enabled on your device. This is stored in your personal iCloud account and is not accessible to InspectPro.
+
+**Manual Backup (user-initiated):** You can create a full backup at any time via **Settings → Data Management → Backup**. This generates a ZIP file containing all inspections, photos, and settings. You can restore from a backup via the same screen.
+
+InspectPro does not automatically sync inspection data to our servers. Your inspection content is stored locally on your device only.
 
 ### 6.4 Temporary PDF Uploads
 
@@ -112,7 +116,7 @@ Outside of these user-initiated flows, we do not access or process your inspecti
 
 ### 6.5 Data on Termination
 
-On account termination or subscription cancellation, any cloud backup data associated with your account will be deleted within **30 days** of the termination date. Pending PDF delivery files will be deleted on their automated schedule (72h / 7 days). Your locally stored data remains on your device.
+On account termination or subscription cancellation, your account data in Supabase will be deleted within **30 days** of the termination date. Pending PDF delivery files will be deleted on their automated schedule (72h / 7 days). Your locally stored data and iCloud backups remain under your control and are not affected by account termination.
 
 ---
 

@@ -50,7 +50,8 @@ A report that is technically well-stored is not necessarily an accurate or compl
 InspectPro uses a hybrid storage model:
 
 - **Primary storage:** Your device (iPhone/iPad). Inspection data, photos, and reports are stored locally on the inspecting device. This is the authoritative source of record.
-- **Backup storage:** A secure cloud backend (Supabase) is used as a **fallback only** — for data recovery purposes in the event of device failure. This backup is not guaranteed to be current, complete, or available at any given time.
+- **iCloud backup:** When you mark an inspection as complete, a copy is saved to your iCloud Drive (if enabled). This is stored in your personal iCloud account.
+- **Manual backup:** You can export a full backup at any time via Settings → Data Management. InspectPro does not automatically sync inspection data to our servers.
 - **Temporary PDF storage:** When you use the Approval Workflow or Send to Client features, a PDF of this report is temporarily uploaded to secure cloud storage to enable delivery. These PDFs are **automatically and permanently deleted** after:
   - **72 hours** for approval workflow PDFs
   - **7 days** for client delivery PDFs

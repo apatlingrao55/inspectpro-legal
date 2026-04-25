@@ -74,7 +74,7 @@
 
 <section id="terms-of-use">
 <h1>InspectPro — Terms of Use</h1>
-<p><strong>Version 5.0 — Last Updated: April 2026</strong></p>
+<p><strong>Version 5.1 — Last Updated: April 2026</strong></p>
 <p>These Terms of Use ("Terms") govern your use of InspectPro ("the App"), a property inspection reporting application operated by Selah AI Consulting Ltd ("InspectPro", "we", "us", "our"). By downloading, installing, or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>
 <p>These Terms are governed by New Zealand law. Nothing in these Terms limits or excludes any rights you have under the Consumer Guarantees Act 1993 (CGA), the Fair Trading Act 1986 (FTA), the Privacy Act 2020, or any other applicable New Zealand legislation that cannot lawfully be excluded.</p>
 <hr>
@@ -102,21 +102,22 @@
 <p>If you are unsure which category applies to you, please contact us.</p>
 <hr>
 <h2>3. Free Trial</h2>
-<p>InspectPro is offers a <strong>10-day trial period</strong> with full functionality. No payment is required during the trial. An account with a valid email address is required to access the trial.</p>
+<p>InspectPro offers a <strong>10-day free trial</strong> with full access to all features. During the trial, you may create up to <strong>10 inspections</strong>. After the trial period ends or once the inspection limit is reached, a paid subscription is required to create new inspections. No payment is required during the trial period.</p>
 <p>During the trial:</p>
 <ul>
 <li>All report data is stored locally on your device.</li>
 <li>We collect limited diagnostic and usage data as described in our Privacy Policy.</li>
 <li>An account is required to use the App. You must register with a valid email address before you can access any features.</li>
+<li>Report exports are unrestricted during the trial.</li>
 </ul>
-<p>After the 10-day trial, a subscription is required to export reports. Your locally saved data remains accessible on your device. We recommend exporting any important reports before your trial expires if you do not intend to subscribe.</p>
+<p>After the 10-day trial, a subscription is required to create new inspections and export reports. Your locally saved data remains accessible on your device. We recommend exporting any important reports before your trial expires if you do not intend to subscribe.</p>
 <hr>
 <h2>4. Subscriptions</h2>
 <h3>4.1 Subscription Plans</h3>
-<p>InspectPro offers a monthly subscription — <strong>$90.85/month NZD (inc. GST) / $79.00/month ex-GST</strong> — with full access to all features for all users.</p>
-<p>Multi-seat and enterprise arrangements may be introduced in future. We will give you at least <strong>30 days' written notice</strong> (by email and/or in-app notification) before any price increase takes effect. If you do not accept the new price, you may cancel your subscription before the new price applies. Continuing to use the App after the new price takes effect constitutes acceptance of the new price. Nothing in this clause limits your rights under the Consumer Guarantees Act 1993 or the Fair Trading Act 1986. Full billing terms and cancellation rights are set out in our <a href="./BILLING_POLICY.md">Billing Policy</a>.</p>
+<p>InspectPro offers subscription plans for solo inspectors and enterprise teams. The standard monthly subscription is <strong>$90.85/month NZD (inc. GST) / $79.00/month ex-GST</strong>. Enterprise subscriptions are available at a per-seat rate.</p>
+<p>Prices may change with at least <strong>30 days' written notice</strong> (by email and/or in-app notification) before any price increase takes effect. If you do not accept the new price, you may cancel your subscription before the new price applies. Continuing to use the App after the new price takes effect constitutes acceptance of the new price. Nothing in this clause limits your rights under the Consumer Guarantees Act 1993 or the Fair Trading Act 1986. Full billing terms and cancellation rights are set out in our <a href="./BILLING_POLICY.md">Billing Policy</a>.</p>
 <h3>4.2 Solo Inspector Subscriptions</h3>
-<p>Individual inspectors subscribe directly to InspectPro. A subscription provides one user with full access to all App features, including unlimited report exports.</p>
+<p>Individual inspectors subscribe directly to InspectPro. A subscription provides one user with full access to all features included in the solo subscription plan, including unlimited report exports.</p>
 <h3>4.3 Enterprise (Company) Subscriptions</h3>
 <p>Inspection companies may purchase per-seat subscriptions for their team. Enterprise subscriptions are managed by a company administrator ("Admin"), who may:</p>
 <ul>
@@ -129,7 +130,7 @@
 <p>Payments are processed by <strong>Stripe</strong> (a third-party payment processor). By subscribing, you authorise Stripe to charge your payment method in accordance with the selected plan.</p>
 <p>Key billing terms:</p>
 <ul>
-<li>Subscriptions are billed in advance (monthly or annually, as selected)</li>
+<li>Subscriptions are billed in advance (monthly in advance)</li>
 <li>Subscriptions automatically renew at the end of each billing period unless cancelled</li>
 <li>You may cancel your subscription at any time through the App or by contacting us; cancellation takes effect at the end of the current billing period</li>
 <li>Refunds and pro-rata adjustments are handled in accordance with our <a href="./BILLING_POLICY.md">Billing Policy</a> and, for consumers, in accordance with the CGA</li>
@@ -160,10 +161,11 @@
 </ul>
 <p>If your content includes personal information about third parties (e.g., property owners, clients), you are responsible for ensuring you have appropriate authority or consent to collect and use that information. InspectPro's obligations regarding your data are set out in our Privacy Policy.</p>
 <h3>6.3 Storage Architecture</h3>
-<p>InspectPro uses a <strong>hybrid storage model</strong>:</p>
+<p>InspectPro uses a <strong>local-first storage model</strong>:</p>
 <ul>
-<li><strong>Primary storage: your device.</strong> All inspection data (reports, notes, photos) is stored locally on your device. This is the primary and authoritative copy of your data.</li>
-<li><strong>Manual backup (user-initiated).</strong> You can create a full backup of all data via Settings → Data Management. We recommend regular backups.</li>
+<li><strong>Your device is where your data is stored.</strong> All inspection data (reports, notes, photos) is stored locally on your device. This is the only copy of your data held within InspectPro.</li>
+<li><strong>Manual backup (user-initiated).</strong> You can create a full backup of all data via Settings → Data Management. We recommend regular backups. Restoring from a backup replaces all existing inspection data on your device.</li>
+<li><strong>Device backup.</strong> We recommend maintaining your own backups using your device's built-in backup features (e.g. iCloud device backup) as an additional precaution. These are independent of InspectPro.</li>
 <li><strong>Supabase (account data only).</strong> Your account credentials and subscription status are stored securely via Supabase. Inspection data is NOT automatically synced to our servers.</li>
 <li><strong>Temporary PDF uploads.</strong> When you use the Approval Workflow or Send to Client features, finalised PDF reports are temporarily uploaded to Supabase Storage to enable those features. These PDFs are automatically deleted as follows:</li>
 </ul>
@@ -265,7 +267,7 @@
 <li>Sublicense, sell, transfer, or otherwise make the App available to third parties except as permitted under an enterprise seat</li>
 </ul>
 <h3>12.3 Feedback</h3>
-<p>If you provide feedback, suggestions, or ideas about the App, you grant us a non-exclusive, royalty-free, perpetual licence to use that feedback without restriction or compensation to you.</p>
+<p>If you provide feedback, suggestions, or ideas about the App, you grant us a non-exclusive, royalty-free, perpetual licence to use that feedback for the purpose of improving the App, without compensation to you.</p>
 <hr>
 <h2>13. Privacy</h2>
 <p>Your privacy matters to us. Our collection, use, and storage of your personal information is governed by our <a href="./PRIVACY_POLICY.md">Privacy Policy</a>, which forms part of these Terms. The Privacy Policy explains:</p>
@@ -282,7 +284,7 @@
 <p>The App integrates with the following third-party services:</p>
 <ul>
 <li><strong>Stripe</strong> — payment processing</li>
-<li><strong>Supabase</strong> — cloud database (used for account data, subscription verification, and temporary PDF storage)</li>
+<li><strong>Supabase</strong> — cloud infrastructure (used for account data, subscription verification, and temporary PDF storage)</li>
 <li><strong>Apple App Store</strong> — app distribution</li>
 </ul>
 <p>Your use of these third-party services is subject to their respective terms of service and privacy policies. InspectPro is not responsible for the acts or omissions of these third parties.</p>
@@ -369,7 +371,7 @@
 
 <section id="privacy-policy">
 <h1>InspectPro Privacy Policy</h1>
-<p><strong>Version 3.0 — Last Updated: April 2026</strong></p>
+<p><strong>Version 3.1 — Last Updated: April 2026</strong></p>
 <p>This Privacy Policy explains how InspectPro ("we", "our", "us") — operated by aiconsult.co.nz — collects, stores, uses, and discloses your personal information. This policy is written in accordance with the <strong>New Zealand Privacy Act 2020</strong> and its 13 Information Privacy Principles (IPPs).</p>
 <p>By using InspectPro, you acknowledge that you have read and understood this Privacy Policy.</p>
 <hr>
@@ -419,9 +421,9 @@
 <p>We will not use your personal information for any purpose other than those listed above without your explicit consent.</p>
 <hr>
 <h2>4. How and Where Your Data Is Stored</h2>
-<p>InspectPro uses a <strong>hybrid storage model</strong>. Your device is the primary location for your data. Supabase cloud infrastructure is used in limited, specific circumstances described below.</p>
+<p>InspectPro uses a <strong>local-first storage model</strong>. Your device is where your data is stored for your data. Supabase cloud infrastructure is used in limited, specific circumstances described below.</p>
 <h3>4.1 Device (Primary Storage)</h3>
-<p>All inspection data — including photos, notes, client details, report history, and subscription cache — is stored <strong>locally on your device</strong> as the primary copy. This data is under your direct control.</p>
+<p>All inspection data — including photos, notes, client details, report history, and subscription cache — is stored <strong>locally on your device</strong> as the <strong>only copy</strong> held within InspectPro. This data is under your direct control.</p>
 <ul>
 <li>You can delete individual inspections, photos, or client records at any time within the app</li>
 <li>Uninstalling the app removes all locally stored data</li>
@@ -430,7 +432,7 @@
 <h3>4.2 Backup Options</h3>
 <p>InspectPro provides two backup mechanisms. <strong>You are responsible for maintaining your own backups.</strong></p>
 <h3>4.2 Manual Backup (user-initiated)</h3>
-<p>You can create a full backup of all your data at any time via <strong>Settings → Data Management → Backup</strong>. This generates a ZIP file containing all inspections, photos, and settings, which you can save to your preferred location (Files, email, cloud storage, etc.). You can restore from a backup ZIP via the same screen.</p>
+<p>You can create a full backup of all your data at any time via <strong>Settings → Data Management → Backup</strong>. This generates a ZIP file containing all inspections, photos, and settings, which you can save to your preferred location (Files, email, cloud storage, etc.). You can restore from a backup ZIP via the same screen. Restoring from a backup replaces all existing inspection data on your device.</p>
 <p><strong>You are responsible for maintaining your own backups.</strong> InspectPro does not automatically sync inspection data to our servers. Your inspection data, photos, and notes are stored locally on your device only. We strongly recommend performing regular backups, particularly before uninstalling the app, changing devices, or after completing important inspections.</p>
 <h3>4.3 Supabase — Account and Subscription Data</h3>
 <p>Your account credentials (email, encrypted password hash) and subscription/membership status are stored in Supabase's hosted PostgreSQL database. This is required to authenticate your account and verify your subscription.</p>
@@ -495,6 +497,8 @@
 <li><strong>Temporary PDFs:</strong> Scoped to your company account; accessible only via time-limited signed URLs; auto-deleted after 72 hours or 7 days as applicable</li>
 </ul>
 <p>Despite our best efforts, no system is completely secure. If you become aware of any security issue, please contact our Privacy Officer immediately.</p>
+<h3>8.1 Privacy Breach Notification (IPP 3A)</h3>
+<p>If we become aware of a notifiable privacy breach (as defined in the Privacy Act 2020), we will notify the New Zealand Privacy Commissioner and affected individuals as soon as practicable after becoming aware of the breach, in accordance with IPP 3A. A notifiable breach is one that it is reasonable to believe has caused, or is likely to cause, serious harm to affected individuals.</p>
 <hr>
 <h2>9. Data Accuracy (IPP 8)</h2>
 <p>We take reasonable steps to ensure that personal information we hold about you is accurate, up to date, complete, and not misleading. Inspection data and client information is entered by you and is within your direct control to update. If you believe any account information we hold is inaccurate, you have the right to request correction (see Section 10).</p>
@@ -538,7 +542,7 @@
 <ul>
 <li>Your account is associated with your company's subscription in our database</li>
 <li>Company administrators may have access to subscription and account membership data</li>
-<li>Inspection data and reports remain under your individual account control unless your organisation's workflow requires otherwise</li>
+<li>Inspection data and reports are stored locally on your device</li>
 <li>If your employment or company relationship ends, contact our Privacy Officer regarding access to data associated with your account</li>
 </ul>
 <hr>
@@ -569,7 +573,7 @@
 
 <section id="eula">
 <h1>InspectPro End User License Agreement (EULA)</h1>
-<p><strong>Version 5.0 — Last Updated: April 2026</strong></p>
+<p><strong>Version 5.1 — Last Updated: April 2026</strong></p>
 <hr>
 <h2>1. Agreement</h2>
 <p>This End User License Agreement ("EULA") is a legal agreement between you ("User") and InspectPro (operated by Selah AI Consulting Ltd, "we", "our", or "us") for the use of the InspectPro mobile application and related services (collectively, "the App").</p>
@@ -592,7 +596,7 @@
 <li>Maintaining the security of their account credentials</li>
 </ul>
 <h3>3.2 Free Trial</h3>
-<p>To use the App, you must register and create an account with a valid email address. A 10-day free trial is provided upon account creation, with full access to all features. After the trial period ends, a subscription is required to continue using the App. The App will lock and no new inspections can be created until a subscription is activated.</p>
+<p>To use the App, you must register and create an account with a valid email address. A 10-day free trial is provided upon account creation, with full access to all features. During the trial, you may create up to <strong>10 inspections</strong>. After the trial period ends or once the inspection limit is reached, a paid subscription is required to create new inspections. The App will lock and no new inspections can be created until a subscription is activated.</p>
 <p>If you do not subscribe at the end of the trial period, your ability to create new reports and export content will be suspended. Your existing locally stored data will remain on your device. You may subscribe at any time to restore full functionality.</p>
 <p>Trial terms, any auto-renewal, and cancellation procedures are described in our <a href="./BILLING_POLICY.md">Billing Policy</a>. Please review those terms before subscribing.</p>
 <h3>3.3 Company License</h3>
@@ -632,10 +636,11 @@
 <h3>6.1 Ownership</h3>
 <p>You retain full ownership of all content you create using the App, including photos, inspection notes, and reports. We do not claim any ownership over your inspection content.</p>
 <h3>6.2 Local Storage (Primary)</h3>
-<p>Inspection content is stored locally on your device only. You are responsible for maintaining your own backups and for any loss of locally stored data.</p>
+<p>Inspection content is stored locally on your device as the only copy held within InspectPro. You are responsible for maintaining your own backups and for any loss of locally stored data.</p>
 <h3>6.3 Manual Backup (user-initiated)</h3>
 <p><strong>You are responsible for maintaining your own backups.</strong></p>
-<p>You can create a full backup at any time via <strong>Settings → Data Management → Backup</strong>. This generates a ZIP file containing all inspections, photos, and settings. You can restore from a backup via the same screen.</p>
+<p>You can create a full backup at any time via <strong>Settings → Data Management → Backup</strong>. This generates a ZIP file containing all inspections, photos, and settings. You can restore from a backup via the same screen. Restoring from a backup replaces all existing inspection data on your device.</p>
+<p>We also recommend maintaining your own backups using your device's built-in backup features (e.g. iCloud device backup) as an additional precaution. These are independent of InspectPro.</p>
 <p>InspectPro does not automatically sync inspection data to our servers. Your inspection content is stored locally on your device only.</p>
 <h3>6.4 Temporary PDF Uploads</h3>
 <p>When you use the <strong>Approval Workflow</strong> or <strong>Send to Client</strong> features, finalised PDF reports are temporarily uploaded to Supabase Storage to enable those delivery flows:</p>
@@ -770,6 +775,7 @@
 <hr>
 <p><strong>Version history:</strong></p>
 <ul>
+<li>v5.1 — April 2026: Trial limits, storage model, backup clarifications.</li>
 <li>v5.0 — March 2026: Full rewrite. Added Solo User License, CGA/FTA compliance, Apple App Store clauses, cure period, backup disclosure, dispute resolution.</li>
 <li>v4.0 — March 2026: Previous version (superseded).</li>
 </ul>
@@ -778,7 +784,7 @@
 <section id="billing-policy">
 <h1>Billing Policy</h1>
 <p><strong>InspectPro — Property Inspection Software</strong></p>
-<p>_Last Updated: April 2026 | Version 2.0_</p>
+<p>_Last Updated: April 2026 | Version 2.1_</p>
 <hr>
 <p>This Billing Policy explains how InspectPro handles subscriptions, payments, cancellations, refunds, and account access. It applies to all users and accounts using InspectPro.</p>
 <p>This policy forms part of our <a href="./TERMS_OF_USE.md">Terms of Use</a> and <a href="./EULA.md">End User License Agreement</a>. In the event of any conflict, this policy applies to billing matters.</p>
@@ -795,9 +801,15 @@
 <p><strong>How the trial works:</strong></p>
 <ul>
 <li>Create an account with a valid email address to begin your trial — no credit card is required.</li>
-<li>All subscription features are fully available during the trial period.</li>
+<li>All subscription features are available during the trial period, with a limit of <strong>10 inspection creations</strong>. Report exports are unrestricted.</li>
 <li>The trial applies once per account.</li>
 </ul>
+<table><tr><th>Trial feature</th><th>Limit</th></tr>
+<tr><td>Duration</td><td>10 days from account creation</td></tr>
+<tr><td>Inspection creations</td><td>Up to 10</td></tr>
+<tr><td>Report exports</td><td>Unrestricted</td></tr>
+<tr><td>Payment required</td><td>No</td></tr>
+</table>
 <p><strong>Auto-renewal and consumer rights:</strong> If you subscribe during or after your trial, your subscription will automatically renew at the end of each billing period. If you are charged without adequate prior notice of the renewal or the amount, you may be entitled to a refund under the Consumer Guarantees Act 1993. Contact us at billing@aiconsult.co.nz if you believe you were charged without adequate notice.</p>
 <p><strong>At the end of your trial:</strong></p>
 <ul>
@@ -813,10 +825,9 @@
 <tr><td>InspectPro</td><td>$90.85/month</td><td>$79.00/month</td></tr>
 </table>
 <p><em><strong>GST note:</strong> $90.85/month is the GST-inclusive price (15% GST applied). Ex-GST price is $79.00/month. GST-itemised invoices are available from the Stripe Customer Portal.</em></p>
-<p>Multi-seat and enterprise arrangements may be introduced in future. We will give you at least <strong>30 days' written notice</strong> (by email and/or in-app notification) before any price increase takes effect. The new price will not apply until the start of your next billing period following the expiry of the notice period. If you do not accept the new price, you may cancel your subscription without penalty before the new price applies. Continuing to use the App after the new price takes effect constitutes acceptance of the new price. For consumer users, your rights under the Consumer Guarantees Act 1993 are not affected by any price change.</p>
+<p>Enterprise and multi-seat subscriptions are available at a per-seat rate. We will give you at least <strong>30 days' written notice</strong> (by email and/or in-app notification) before any price increase takes effect. The new price will not apply until the start of your next billing period following the expiry of the notice period. If you do not accept the new price, you may cancel your subscription without penalty before the new price applies. Continuing to use the App after the new price takes effect constitutes acceptance of the new price. For consumer users, your rights under the Consumer Guarantees Act 1993 are not affected by any price change.</p>
 <p>Current pricing is available at <a href="https://inspectpro.co.nz/pricing">inspectpro.co.nz/pricing</a>.</p>
 <p><strong>Price changes:</strong> We may change subscription pricing. We will provide <strong>at least 30 days' written notice</strong> of any price increase by email to your registered address and by notice within the App. For consumer users, the new price will not apply until the start of your next billing period following the notice period, and you may cancel before that date without penalty.</p>
-<p><strong>Annual plans:</strong> Annual subscription options may be offered in the future. If annual billing is available, specific terms (including cancellation and refund rights for annual subscriptions) will be disclosed at the point of purchase.</p>
 <hr>
 <h2>4. Billing & Payment</h2>
 <ul>
@@ -945,18 +956,18 @@
 <tr><td>Privacy & data requests</td><td>privacy@aiconsult.co.nz</td></tr>
 </table>
 <hr>
-<p>_This document is version 2.0, superseding Billing Policy v1.0._</p>
+<p>_This document is version 2.1, superseding Billing Policy v2.0._</p>
 <p>_Introduced alongside Terms of Use v4.0. Legal review recommended before public distribution._</p>
 </section>
 
 <section id="report-disclaimer">
 <h1>InspectPro — Report Disclaimer</h1>
-<p><strong>Version 1.0 — April 2026</strong></p>
+<p><strong>Version 1.1 — April 2026</strong></p>
 <hr>
 <h2>Short Version (for in-app display at report generation)</h2>
 <p><em><strong>This report was created using InspectPro, a recording and reporting tool.</strong></em></p>
 <p>></p>
-<p><em>The accuracy, completeness, and professional adequacy of this report is the sole responsibility of the inspector named below. InspectPro provides the tool — not the inspection. This report does not constitute professional advice to any third party, including property buyers, lenders, or insurers. Report data is stored locally on the inspector's device and may be temporarily backed up. Do not rely on this report as an independent property assessment.</em></p>
+<p><em>The accuracy, completeness, and professional adequacy of this report is the sole responsibility of the inspector named below. InspectPro provides the tool — not the inspection. This report does not constitute professional advice to any third party, including property buyers, lenders, or insurers. Report data is stored locally on the inspector's device and may be temporarily uploaded for report delivery. Do not rely on this report as an independent property assessment.</em></p>
 <hr>
 <h2>Full Disclaimer</h2>
 <h3>1. InspectPro is a Tool, Not a Professional Service</h3>
@@ -967,7 +978,7 @@
 <li>Does <strong>not</strong> provide building, structural, or engineering advice</li>
 <li>Does <strong>not</strong> certify or endorse the contents of any report</li>
 <li>Does <strong>not</strong> determine whether an inspection meets any professional, regulatory, or industry standard</li>
-<li>Does <strong>not</strong> guarantee that inspection templates or checklists cover all defects, conditions, or requirements relevant to any particular inspection</li>
+<li>Does <strong>not</strong> guarantee that inspection section configuration cover all defects, conditions, or requirements relevant to any particular inspection</li>
 </ul>
 <h3>2. Inspector's Professional Responsibility</h3>
 <p>The inspector who created this report is a building inspector acting in their professional capacity acting in their professional capacity. They bear <strong>sole and exclusive responsibility</strong> for:</p>
@@ -984,11 +995,11 @@
 <p><strong>Inspection accuracy</strong> refers to whether the inspector correctly identified, recorded, and interpreted all relevant conditions at the property. This is entirely the inspector's professional responsibility. InspectPro has no visibility into, and makes no representation about, the quality or completeness of any inspection.</p>
 <p>A report that is technically well-stored is not necessarily an accurate or complete inspection report. These are independent matters. InspectPro's responsibility extends only to the former.</p>
 <h3>4. Data Storage — How Your Report is Stored</h3>
-<p>InspectPro uses a hybrid storage model:</p>
+<p>InspectPro uses a local-first storage model:</p>
 <ul>
 <li><strong>Primary storage:</strong> Your device (iPhone/iPad). Inspection data, photos, and reports are stored locally on the inspecting device. This is the authoritative source of record.</li>
-<li><strong>Manual backup:</strong> You can export a full backup at any time via Settings → Data Management. InspectPro does not automatically sync inspection data to our servers.</li>
-<li><strong>Temporary PDF storage:</strong> When you use the Approval Workflow or Send to Client features, a PDF of this report is temporarily uploaded to secure cloud storage to enable delivery. These PDFs are <strong>automatically and permanently deleted</strong> after:</li>
+<li><strong>Manual backup:</strong> You can export a full backup at any time via Settings → Data Management. Restoring from a backup replaces all existing inspection data on your device. InspectPro does not automatically sync inspection data to our servers.</li>
+<li><strong>Temporary PDF storage:</strong> When you use the Approval Workflow or Send to Client features, a PDF of this report is temporarily uploaded to temporary cloud storage (Supabase Storage) to enable delivery. These PDFs are <strong>automatically and permanently deleted</strong> after:</li>
 </ul>
 <p>- <strong>72 hours</strong> for approval workflow PDFs</p>
 <p>- <strong>7 days</strong> for client delivery PDFs</p>
@@ -1002,7 +1013,7 @@
 <ul>
 <li>InspectPro's total liability in connection with any report generated using the App shall not exceed the fees paid by the inspector or their company (as applicable) to InspectPro in the 12 months preceding the claim, or NZD $500, whichever is greater.</li>
 <li>InspectPro shall not be liable for any indirect, consequential, special, or punitive loss arising from reliance on any report, including loss from property transactions, structural damage, or financial loss of any kind.</li>
-<li>InspectPro shall not be liable for any loss arising from data stored on the inspector's device, temporary cloud storage, or any failure of backup or sync processes.</li>
+<li>InspectPro shall not be liable for any loss arising from data stored on the inspector's device, temporary cloud storage, or any failure of backup processes.</li>
 </ul>
 <h3>7. Consumer Guarantees Act 1993 (New Zealand)</h3>
 <p>Nothing in this disclaimer limits any rights you may have under the <strong>Consumer Guarantees Act 1993 (NZ)</strong> that cannot be excluded or limited by contract. If you are a consumer within the meaning of that Act, your statutory rights are preserved.</p>

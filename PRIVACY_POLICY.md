@@ -1,1 +1,258 @@
-# InspectPro Privacy Policy\n\n**Version 3.0 \u2014 Last Updated: April 2026**\n\nThis Privacy Policy explains how InspectPro (\"we\", \"our\", \"us\") \u2014 operated by aiconsult.co.nz \u2014 collects, stores, uses, and discloses your personal information. This policy is written in accordance with the **New Zealand Privacy Act 2020** and its 13 Information Privacy Principles (IPPs).\n\nBy using InspectPro, you acknowledge that you have read and understood this Privacy Policy.\n\n---\n\n## 1. Who This Policy Applies To\n\nThis policy applies to:\n- **Solo inspectors** who subscribe directly to InspectPro\n- **Enterprise users** who access InspectPro through a company or team subscription\n\nReferences to \"you\" and \"your\" include both solo and enterprise users.\n\n---\n\n## 2. What Personal Information We Collect\n\nWe only collect personal information that is necessary to provide the InspectPro service (IPP 1).\n\n### 2.1 Account Information\n- **Email address** \u2014 required to create an account, authenticate your identity, and manage your subscription\n- **Password** \u2014 stored as a hashed credential; we never store your password in plain text\n- **Inspector name** \u2014 as you enter it for use on reports (optional, but used on reports if provided)\n\n### 2.2 Client and Inspection Data (entered by you)\n- Client names, email addresses, phone numbers, and property addresses\n- Inspection photos, notes, comments, severity ratings, and recommendations\n- Company association and subscription membership (for enterprise accounts)\n\nThis data is entered by you to produce inspection reports. Providing it is at your discretion.\n\n### 2.3 Subscription and Billing Data\n- Subscription status and renewal dates\n- Payment processing is handled entirely by Stripe. We do not collect or store payment card numbers (see Section 6.2)\n\n### 2.4 Device and Usage Information\n- Device type and operating system version, collected solely for app compatibility purposes\n- We do not collect location data, advertising identifiers, or behavioural tracking data\n\n---\n\n## 3. Why We Collect This Information and How It Is Used (IPP 3, IPP 10)\n\nWe collect personal information only for the following purposes:\n\n| Data | Purpose | Legal basis |\n|------|---------|------------|\n| Email address and password | Account authentication and subscription management | Contract performance |\n| Client and inspection data | Generating inspection reports on your device | Contract performance |\n| Photos and notes | Local report creation (see Section 4) | Contract performance |\n| Subscription status | Verifying your access to the service | Contract performance |\n| Device information | App compatibility and troubleshooting | Necessary for the provision and maintenance of the service (IPP 1) |\n\nWe will not use your personal information for any purpose other than those listed above without your explicit consent.\n\n---\n\n## 4. How and Where Your Data Is Stored\n\nInspectPro uses a **hybrid storage model**. Your device is the primary location for your data. Supabase cloud infrastructure is used in limited, specific circumstances described below.\n\n### 4.1 Device (Primary Storage)\nAll inspection data \u2014 including photos, notes, client details, report history, and subscription cache \u2014 is stored **locally on your device** as the primary copy. This data is under your direct control.\n\n- You can delete individual inspections, photos, or client records at any time within the app\n- Uninstalling the app removes all locally stored data\n- We recommend maintaining your own backups via the in-app backup feature as an additional precaution\n\n### 4.2 Manual Backup (user-initiated)\n\nYou can create a full backup of all your data at any time via **Settings \u2192 Data Management \u2192 Backup**. This generates a ZIP file containing all inspections, photos, and settings, which you can save to your preferred location (Files, email, cloud storage, etc.). You can restore from a backup ZIP via the same screen.\n\n**You are responsible for maintaining your own backups.** InspectPro does not automatically sync inspection data to our servers. Your inspection data, photos, and notes are stored locally on your device only. We strongly recommend performing regular backups, particularly before uninstalling the app, changing devices, or after completing important inspections.\n\n### 4.3 Supabase \u2014 Account and Subscription Data\nYour account credentials (email, encrypted password hash) and subscription/membership status are stored in Supabase's hosted PostgreSQL database. This is required to authenticate your account and verify your subscription.\n\n- Subscription status is also cached locally on your device (including plan type, status, and expiry date) for offline access\n- This cache is refreshed when the app connects to the internet\n\n### 4.4 Supabase \u2014 Temporary PDF Storage (Approval and Delivery Workflows)\nWhen you use the **Approval Workflow** (submit for manager approval) or **Send to Client** features, a finalised PDF report is temporarily uploaded to Supabase Storage to facilitate delivery.\n\nThese uploads are:\n- Always **user-initiated** \u2014 only triggered when you explicitly use these features\n- **Scoped to your company account** \u2014 not visible to other accounts\n- Accessible only via **time-limited signed URLs**\n- **Automatically deleted** on a fixed schedule:\n  - Approval Workflow PDFs: deleted **72 hours** after upload\n  - Send to Client PDFs: deleted **7 days** after upload\n\nPDF reports may contain client names, property addresses, photos, notes, severity ratings, and recommendations.\n\n---\n\n## 5. Offshore Data Transfer (IPP 13)\n\nSome of your personal information is transferred to and stored offshore, via our third-party service providers. Before any offshore transfer, we satisfy ourselves on reasonable grounds that the recipient organisation is subject to privacy obligations comparable to those in the New Zealand Privacy Act 2020, whether by contract, binding corporate rules, or the laws of the recipient jurisdiction (IPP 13(1)(a)).\n\n| Provider | Data transferred | Location |\n|----------|-----------------|----------|\n| Supabase | Account data, subscription data, temporary PDFs | United States, Europe |\n| Stripe | Payment processing (handled on Stripe's infrastructure) | United States |\n\n**Supabase** participates in industry-standard data protection frameworks. Their privacy policy is available at [supabase.com/privacy](https://supabase.com/privacy).\n\n**Stripe** maintains SOC 2 Type II certification and PCI-DSS compliance. Their privacy policy is available at [stripe.com/privacy](https://stripe.com/privacy).\n\n---\n\n## 6. Third-Party Services\n\n### 6.1 Supabase (Authentication, Database, and Storage)\n- **Purpose:** Account authentication, subscription verification, and temporary PDF storage for Approval Workflow and Send to Client features\n- **Data shared:** Email address, encrypted password hash, subscription status, and temporary PDF uploads\n- **Privacy policy:** [supabase.com/privacy](https://supabase.com/privacy)\n\n### 6.2 Stripe (Payment Processing)\n- **Purpose:** Subscription billing and payment processing\n- **How it works:** Payment is handled on Stripe's hosted pages. We do not collect, process, or store your payment card details. Stripe receives your payment information directly.\n- **Privacy policy:** [stripe.com/privacy](https://stripe.com/privacy)\n\n---\n\n## 7. Data Sharing and Disclosure (IPP 11)\n\n**We do not sell, rent, or share your personal information with third parties for marketing or commercial purposes.**\n\nYour data is only disclosed in the following circumstances:\n\n- **To Supabase** \u2014 as described in Section 4 (authentication, subscription verification, temporary PDFs)\n- **To Stripe** \u2014 for payment processing when you subscribe or manage your billing\n- **By you** \u2014 when you explicitly share a PDF report via email, messaging, or other apps on your device\n- **If required by law** \u2014 in response to a valid legal obligation, court order, or request from a regulatory authority with jurisdiction over our business\n- **To protect health or safety** \u2014 if we reasonably believe disclosure is necessary to prevent or lessen a serious threat to public health, public safety, or the life or health of an individual, or is necessary for the conduct of proceedings before any court or tribunal (in accordance with section 22 of the Privacy Act 2020)\n\n---\n\n## 8. Data Security (IPP 5)\n\nWe implement reasonable security safeguards appropriate to the sensitivity of the information:\n\n- **Local device storage:** Protected by your device's built-in security (iOS encryption, biometric lock)\n- **Authentication tokens:** Encrypted using AES-256 before storage, with keys held in the device's Secure Enclave (Expo SecureStore)\n- **Network communication:** All data transfers use HTTPS/TLS encryption\n- **Supabase account data:** Encrypted in transit and at rest; scoped to your account\n- **Temporary PDFs:** Scoped to your company account; accessible only via time-limited signed URLs; auto-deleted after 72 hours or 7 days as applicable\n\nDespite our best efforts, no system is completely secure. If you become aware of any security issue, please contact our Privacy Officer immediately.\n\n---\n\n## 9. Data Accuracy (IPP 8)\n\nWe take reasonable steps to ensure that personal information we hold about you is accurate, up to date, complete, and not misleading. Inspection data and client information is entered by you and is within your direct control to update. If you believe any account information we hold is inaccurate, you have the right to request correction (see Section 10).\n\n---\n\n## 10. Your Rights Under the NZ Privacy Act 2020\n\nYou have the following rights in relation to personal information we hold about you:\n\n### Right to Access (IPP 6)\nYou may request access to the personal information we hold about you. Inspection data, client data, and report history are accessible directly within the app. For account data stored in Supabase, contact our Privacy Officer and we will respond within 20 working days as required by the Privacy Act 2020.\n\n### Right to Correction (IPP 7)\nYou may request that we correct any personal information we hold about you that is inaccurate, misleading, incomplete, or out of date. We will either make the correction or, if we disagree, attach a note of your requested correction to the record. Contact our Privacy Officer to make a correction request.\n\n### Right to Delete\n- You may delete any inspection, photo, client record, or account at any time within the app\n- Account data held in Supabase will be deleted within 30 days of a verified deletion request\n- Local device data is deleted when you remove records in-app, clear app data, or uninstall the app\n\n### Right to Complain\nIf you believe we have breached the Privacy Act 2020, you may:\n1. Contact our Privacy Officer (details below) \u2014 we will acknowledge your complaint within 5 working days and respond within 20 working days\n2. If you are not satisfied with our response, complain to the **New Zealand Privacy Commissioner** at [privacy.org.nz](https://www.privacy.org.nz) or call **0800 803 909**\n\n---\n\n## 11. Data Retention (IPP 9)\n\nWe do not retain personal information longer than necessary for the purposes for which it was collected.\n\n| Data type | Retention period |\n|-----------|-----------------|\n| Local inspection data | Until you delete it or uninstall the app |\n| Manual backup data (ZIP exports) | Under your control; stored wherever you save the file |\n| Account data (email, credentials) | Until you request account deletion, then deleted within 30 days |\n| Subscription/billing history | Up to 7 years for financial compliance (NZ tax law) |\n| Approval Workflow PDFs | Auto-deleted 72 hours after upload |\n| Send to Client PDFs | Auto-deleted 7 days after upload |\n| Device subscription cache | Until refreshed or app uninstalled |\n\n---\n\n## 12. Unique Identifiers (IPP 12)\n\nWe do not collect or use government-issued identifiers such as IRD numbers, driver licence numbers, or passport numbers. Your account is identified by your email address and an internally generated user ID.\n\n---\n\n## 13. Enterprise Accounts\n\nIf you access InspectPro through a company or team subscription:\n- Your account is associated with your company's subscription in our database\n- Company administrators may have access to subscription and account membership data\n- Inspection data and reports remain under your individual account control unless your organisation's workflow requires otherwise\n- If your employment or company relationship ends, contact our Privacy Officer regarding access to data associated with your account\n\n---\n\n## 14. Children's Privacy\n\nInspectPro is designed for professional use and is not intended for use by individuals under 18 years of age. We do not knowingly collect personal information from anyone under 18.\n\n---\n\n## 15. Changes to This Policy\n\nWe may update this Privacy Policy from time to time. When we make material changes, we will:\n- Post the updated policy in the app\n- Update the \"Last Updated\" date at the top of this document\n- Notify you within the app and require re-acceptance of material changes\n\nWe encourage you to review this policy periodically. Continued use of the app after notification of changes constitutes acceptance of the updated policy.\n\n---\n\n## 16. Contact \u2014 Privacy Officer\n\nIf you have questions, concerns, or requests regarding this Privacy Policy or how we handle your personal information, please contact:\n\n**Privacy Officer**\nInspectPro / aiconsult.co.nz\n**Email:** privacy@aiconsult.co.nz\n\nWe aim to respond to all privacy queries within 5 working days and to resolve complaints within 20 working days.\n\n**New Zealand Privacy Commissioner** (if unresolved):\nWebsite: [privacy.org.nz](https://www.privacy.org.nz)\nPhone: 0800 803 909\n\n---\n\n*This Privacy Policy was prepared in accordance with the New Zealand Privacy Act 2020 and its 13 Information Privacy Principles. Last reviewed: April 2026.*\n
+# InspectPro Privacy Policy
+
+**Version 3.1 — Last Updated: April 2026**
+
+This Privacy Policy explains how InspectPro ("we", "our", "us") — operated by aiconsult.co.nz — collects, stores, uses, and discloses your personal information. This policy is written in accordance with the **New Zealand Privacy Act 2020** and its 13 Information Privacy Principles (IPPs).
+
+By using InspectPro, you acknowledge that you have read and understood this Privacy Policy.
+
+---
+
+## 1. Who This Policy Applies To
+
+This policy applies to:
+- **Solo inspectors** who subscribe directly to InspectPro
+- **Enterprise users** who access InspectPro through a company or team subscription
+
+References to "you" and "your" include both solo and enterprise users.
+
+---
+
+## 2. What Personal Information We Collect
+
+We only collect personal information that is necessary to provide the InspectPro service (IPP 1).
+
+### 2.1 Account Information
+- **Email address** — required to create an account, authenticate your identity, and manage your subscription
+- **Password** — stored as a hashed credential; we never store your password in plain text
+- **Inspector name** — as you enter it for use on reports (optional, but used on reports if provided)
+
+### 2.2 Client and Inspection Data (entered by you)
+- Client names, email addresses, phone numbers, and property addresses
+- Inspection photos, notes, comments, severity ratings, and recommendations
+- Company association and subscription membership (for enterprise accounts)
+
+This data is entered by you to produce inspection reports. Providing it is at your discretion.
+
+### 2.3 Subscription and Billing Data
+- Subscription status and renewal dates
+- Payment processing is handled entirely by Stripe. We do not collect or store payment card numbers (see Section 6.2)
+
+### 2.4 Device and Usage Information
+- Device type and operating system version, collected solely for app compatibility purposes
+- We do not collect location data, advertising identifiers, or behavioural tracking data
+
+---
+
+## 3. Why We Collect This Information and How It Is Used (IPP 3, IPP 10)
+
+We collect personal information only for the following purposes:
+
+| Data | Purpose | Legal basis |
+|------|---------|------------|
+| Email address and password | Account authentication and subscription management | Contract performance |
+| Client and inspection data | Generating inspection reports on your device | Contract performance |
+| Photos and notes | Local report creation (see Section 4) | Contract performance |
+| Subscription status | Verifying your access to the service | Contract performance |
+| Device information | App compatibility and troubleshooting | Legitimate interest |
+
+We will not use your personal information for any purpose other than those listed above without your explicit consent.
+
+---
+
+## 4. How and Where Your Data Is Stored
+
+InspectPro uses a **local-first storage model**. Your device is where your data is stored. Supabase cloud infrastructure is used in limited, specific circumstances described below.
+
+### 4.1 Device Storage
+All inspection data — including photos, notes, client details, report history, and subscription cache — is stored **locally on your device** as the **only copy** held within InspectPro. This data is under your direct control.
+
+- You can delete individual inspections, photos, or client records at any time within the app
+- Uninstalling the app removes all locally stored data
+- We recommend maintaining your own backups using the in-app backup feature (Settings → Data Management) or your device's built-in backup features (e.g. iCloud device backup) as an additional precaution
+
+### 4.2 Backup Options
+
+**You are responsible for maintaining your own backups.**
+
+**Manual Backup (user-initiated)**
+You can create a full backup of all your data at any time via **Settings → Data Management → Backup**. This generates a ZIP file containing all inspections, photos, and settings, which you can save to your preferred location (Files, email, cloud storage, etc.). You can restore from a backup ZIP via the same screen. Restoring from a backup replaces all existing inspection data on your device.
+
+**Important:** InspectPro does not automatically sync inspection data to our servers. Your inspection data, photos, and notes are stored locally on your device only. We strongly recommend performing regular backups, particularly before uninstalling the app, changing devices, or after completing important inspections.
+
+### 4.3 Supabase — Account and Subscription Data
+Your account credentials (email, encrypted password hash) and subscription/membership status are stored in Supabase's hosted PostgreSQL database. This is required to authenticate your account and verify your subscription.
+
+- Subscription status is also cached locally on your device (including plan type, status, and expiry date) for offline access
+- This cache is refreshed when the app connects to the internet
+
+### 4.4 Supabase — Temporary PDF Storage (Approval and Delivery Workflows)
+When you use the **Approval Workflow** (submit for manager approval) or **Send to Client** features, a finalised PDF report is temporarily uploaded to Supabase Storage to facilitate delivery.
+
+These uploads are:
+- Always **user-initiated** — only triggered when you explicitly use these features
+- **Scoped to your company account** — not visible to other accounts
+- Accessible only via **time-limited signed URLs**
+- **Automatically deleted** on a fixed schedule:
+  - Approval Workflow PDFs: deleted **72 hours** after upload
+  - Send to Client PDFs: deleted **7 days** after upload
+
+PDF reports may contain client names, property addresses, photos, notes, severity ratings, and recommendations.
+
+---
+
+## 5. Offshore Data Transfer (IPP 13)
+
+Some of your personal information is transferred to and stored offshore, via our third-party service providers. Before any offshore transfer, we take reasonable steps to ensure that the recipient country or organisation provides comparable privacy protections to those required under the New Zealand Privacy Act 2020.
+
+| Provider | Data transferred | Location |
+|----------|-----------------|----------|
+| Supabase | Account data, subscription data, temporary PDFs | United States, Europe |
+| Stripe | Payment processing (handled on Stripe's infrastructure) | United States |
+
+**Supabase** participates in industry-standard data protection frameworks. Their privacy policy is available at [supabase.com/privacy](https://supabase.com/privacy).
+
+**Stripe** maintains SOC 2 Type II certification and PCI-DSS compliance. Their privacy policy is available at [stripe.com/privacy](https://stripe.com/privacy).
+
+---
+
+## 6. Third-Party Services
+
+### 6.1 Supabase (Authentication, Database, and Storage)
+- **Purpose:** Account authentication, subscription verification, and temporary PDF storage for Approval Workflow and Send to Client features
+- **Data shared:** Email address, encrypted password hash, subscription status, and temporary PDF uploads
+- **Privacy policy:** [supabase.com/privacy](https://supabase.com/privacy)
+
+### 6.2 Stripe (Payment Processing)
+- **Purpose:** Subscription billing and payment processing
+- **How it works:** Payment is handled on Stripe's hosted pages. We do not collect, process, or store your payment card details. Stripe receives your payment information directly.
+- **Privacy policy:** [stripe.com/privacy](https://stripe.com/privacy)
+
+---
+
+## 7. Data Sharing and Disclosure (IPP 11)
+
+**We do not sell, rent, or share your personal information with third parties for marketing or commercial purposes.**
+
+Your data is only disclosed in the following circumstances:
+
+- **To Supabase** — as described in Section 4 (authentication, subscription verification, temporary PDFs)
+- **To Stripe** — for payment processing when you subscribe or manage your billing
+- **By you** — when you explicitly share a PDF report via email, messaging, or other apps on your device
+- **If required by law** — in response to a valid legal obligation, court order, or request from a regulatory authority with jurisdiction over our business
+- **To protect rights or safety** — if we reasonably believe disclosure is necessary to prevent harm or investigate unlawful activity
+
+---
+
+## 8. Data Security (IPP 5)
+
+We implement reasonable security safeguards appropriate to the sensitivity of the information:
+
+- **Local device storage:** Protected by your device's built-in security (iOS encryption, biometric lock)
+- **Authentication tokens:** Encrypted using AES-256 before storage, with keys held in the device's Secure Enclave (Expo SecureStore)
+- **Network communication:** All data transfers use HTTPS/TLS encryption
+- **Supabase account data:** Encrypted in transit and at rest; scoped to your account
+- **Temporary PDFs:** Scoped to your company account; accessible only via time-limited signed URLs; auto-deleted after 72 hours or 7 days as applicable
+
+Despite our best efforts, no system is completely secure. If you become aware of any security issue, please contact our Privacy Officer immediately.
+
+### 8.1 Privacy Breach Notification (IPP 3A)
+
+If we become aware of a notifiable privacy breach (as defined in the Privacy Act 2020), we will notify the New Zealand Privacy Commissioner and affected individuals as soon as practicable after becoming aware of the breach, in accordance with IPP 3A. A notifiable breach is one that it is reasonable to believe has caused, or is likely to cause, serious harm to affected individuals.
+
+---
+
+## 9. Data Accuracy (IPP 8)
+
+We take reasonable steps to ensure that personal information we hold about you is accurate, up to date, complete, and not misleading. Inspection data and client information is entered by you and is within your direct control to update. If you believe any account information we hold is inaccurate, you have the right to request correction (see Section 10).
+
+---
+
+## 10. Your Rights Under the NZ Privacy Act 2020
+
+You have the following rights in relation to personal information we hold about you:
+
+### Right to Access (IPP 6)
+You may request access to the personal information we hold about you. Inspection data, client data, and report history are accessible directly within the app. For account data stored in Supabase, contact our Privacy Officer and we will respond within 20 working days as required by the Privacy Act 2020.
+
+### Right to Correction (IPP 7)
+You may request that we correct any personal information we hold about you that is inaccurate, misleading, incomplete, or out of date. We will either make the correction or, if we disagree, attach a note of your requested correction to the record. Contact our Privacy Officer to make a correction request.
+
+### Right to Delete
+- You may delete any inspection, photo, client record, or account at any time within the app
+- Account data held in Supabase will be deleted within 30 days of a verified deletion request
+- Local device data is deleted when you remove records in-app, clear app data, or uninstall the app
+
+### Right to Complain
+If you believe we have breached the Privacy Act 2020, you may:
+1. Contact our Privacy Officer (details below) — we will acknowledge your complaint within 5 working days and respond within 20 working days
+2. If you are not satisfied with our response, complain to the **New Zealand Privacy Commissioner** at [privacy.org.nz](https://www.privacy.org.nz) or call **0800 803 909**
+
+---
+
+## 11. Data Retention (IPP 9)
+
+We do not retain personal information longer than necessary for the purposes for which it was collected.
+
+| Data type | Retention period |
+|-----------|-----------------|
+| Local inspection data | Until you delete it or uninstall the app |
+| Manual backup exports (ZIP files) | Managed by you; stored in your chosen location |
+| Account data (email, credentials) | Until you request account deletion, then deleted within 30 days |
+| Subscription/billing history | Up to 7 years for financial compliance (NZ tax law) |
+| Approval Workflow PDFs | Auto-deleted 72 hours after upload |
+| Send to Client PDFs | Auto-deleted 7 days after upload |
+| Device subscription cache | Until refreshed or app uninstalled |
+
+---
+
+## 12. Unique Identifiers (IPP 12)
+
+We do not collect or use government-issued identifiers such as IRD numbers, driver licence numbers, or passport numbers. Your account is identified by your email address and an internally generated user ID.
+
+---
+
+## 13. Enterprise Accounts
+
+If you access InspectPro through a company or team subscription:
+- Your account is associated with your company's subscription in our database
+- Company administrators may have access to subscription and account membership data
+- Inspection data and reports remain under your individual account control, stored locally on your device
+- If your employment or company relationship ends, contact our Privacy Officer regarding access to data associated with your account
+
+---
+
+## 14. Children's Privacy
+
+InspectPro is designed for professional use and is not intended for use by individuals under 18 years of age. We do not knowingly collect personal information from anyone under 18.
+
+---
+
+## 15. Changes to This Policy
+
+We may update this Privacy Policy from time to time. When we make material changes, we will:
+- Post the updated policy in the app
+- Update the "Last Updated" date at the top of this document
+- Notify you within the app and require re-acceptance of material changes
+
+We encourage you to review this policy periodically. Continued use of the app after notification of changes constitutes acceptance of the updated policy.
+
+---
+
+## 16. Contact — Privacy Officer
+
+If you have questions, concerns, or requests regarding this Privacy Policy or how we handle your personal information, please contact:
+
+**Privacy Officer**
+InspectPro / aiconsult.co.nz
+**Email:** privacy@aiconsult.co.nz
+
+We aim to respond to all privacy queries within 5 working days and to resolve complaints within 20 working days.
+
+**New Zealand Privacy Commissioner** (if unresolved):
+Website: [privacy.org.nz](https://www.privacy.org.nz)
+Phone: 0800 803 909
+
+---
+
+*This Privacy Policy was prepared in accordance with the New Zealand Privacy Act 2020 and its 13 Information Privacy Principles. Last reviewed: April 2026.*

@@ -1,6 +1,6 @@
 # InspectPro — Report Disclaimer
 
-**Version 1.1 — April 2026**
+**Version 1.2 — April 2026**
 
 ---
 
@@ -78,6 +78,10 @@ To the maximum extent permitted by applicable law:
 Nothing in this disclaimer limits any rights you may have under the **Consumer Guarantees Act 1993 (NZ)** that cannot be excluded or limited by contract. If you are a consumer within the meaning of that Act, your statutory rights are preserved.
 
 For the avoidance of doubt: InspectPro is typically supplied to building inspection businesses and professionals. Where the Consumer Guarantees Act 1993 applies to an individual user, their statutory rights are preserved as set out in this disclaimer and our Terms of Use. Any exclusion or limitation in these terms operates only to the extent permitted by that Act.
+
+### 7A. Australian Consumer Law
+
+For users in Australia: nothing in this disclaimer excludes or limits any rights you have under the Australian Consumer Law (Schedule 2 of the Competition and Consumer Act 2010 (Cth)) that cannot be lawfully excluded. To the extent that any guarantee under the Australian Consumer Law applies to InspectPro's services, our liability for a failure to comply with that guarantee is limited, to the extent permitted by law, to resupply of the services or payment of the cost of resupply.
 
 ### 8. Fair Trading Act 1986 (New Zealand)
 

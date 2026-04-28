@@ -1,10 +1,12 @@
 # InspectPro — Terms of Use
 
-**Version 5.1 — Last Updated: April 2026**
+**Version 5.2 — Last Updated: April 2026**
 
 These Terms of Use ("Terms") govern your use of InspectPro ("the App"), a property inspection reporting application operated by Selah AI Consulting Ltd ("InspectPro", "we", "us", "our"). By downloading, installing, or using the App, you agree to these Terms. If you do not agree, do not use the App.
 
 These Terms are governed by New Zealand law. Nothing in these Terms limits or excludes any rights you have under the Consumer Guarantees Act 1993 (CGA), the Fair Trading Act 1986 (FTA), the Privacy Act 2020, or any other applicable New Zealand legislation that cannot lawfully be excluded.
+
+For users in Australia: nothing in these Terms limits or excludes any rights you have under the Australian Consumer Law (Schedule 2 of the Competition and Consumer Act 2010 (Cth)) that cannot be lawfully excluded. Where the Australian Consumer Law applies, you may be entitled to remedies including repair, replacement, refund, or compensation.
 
 ---
 

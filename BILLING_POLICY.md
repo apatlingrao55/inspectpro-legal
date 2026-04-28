@@ -1,6 +1,6 @@
 # Billing Policy
 **InspectPro — Property Inspection Software**
-_Last Updated: April 2026 | Version 2.1_
+_Last Updated: April 2026 | Version 2.2_
 
 ---
 
@@ -186,17 +186,20 @@ InspectPro may restrict or terminate your account for:
 
 ---
 
-## 11. Your Rights Under New Zealand Law
+## 11. Your Rights Under New Zealand and Australian Law
 
 Nothing in this Billing Policy limits or excludes any rights you have under:
 - **Consumer Guarantees Act 1993 (NZ)**
 - **Fair Trading Act 1986 (NZ)**
 - **Privacy Act 2020 (NZ)**
-- Any other applicable New Zealand legislation
+- **Australian Consumer Law (Schedule 2, Competition and Consumer Act 2010 (Cth))**
+- Any other applicable legislation
 
-Where those Acts grant you rights, they apply regardless of what this policy states. If any provision of this policy is found to be unenforceable under New Zealand law, the remaining provisions continue to apply.
+For Australian consumers: you may be entitled to a refund for a major failure and compensation for any other reasonably foreseeable loss. For a minor failure, we are entitled to choose to repair or replace before a refund is required.
 
-**External dispute resolution:** If you are a consumer user and are not satisfied with our response to a complaint, you may contact the **NZ Commerce Commission** (comcom.govt.nz) for guidance on your rights, or make a claim at the **Disputes Tribunal** (disputestribunal.govt.nz) for disputes up to $30,000.
+Where those Acts grant you rights, they apply regardless of what this policy states. If any provision of this policy is found to be unenforceable under applicable law, the remaining provisions continue to apply.
+
+**External dispute resolution:** If you are a consumer user and are not satisfied with our response to a complaint, you may contact the **NZ Commerce Commission** (comcom.govt.nz) or the **Australian Competition and Consumer Commission** (accc.gov.au) for guidance on your rights, or make a claim at the **Disputes Tribunal** (disputestribunal.govt.nz) for disputes up to $30,000.
 
 ---
 
@@ -226,5 +229,5 @@ This Billing Policy is governed by and construed in accordance with the laws of 
 
 ---
 
-_This document is version 2.1, superseding Billing Policy v2.0._
+_This document is version 2.2, superseding Billing Policy v2.1._
 _Introduced alongside Terms of Use v4.0. Legal review recommended before public distribution._

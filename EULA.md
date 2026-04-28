@@ -1,6 +1,6 @@
 # InspectPro End User License Agreement (EULA)
 
-**Version 5.1 — Last Updated: April 2026**
+**Version 5.2 — Last Updated: April 2026**
 
 ---
 
@@ -23,6 +23,8 @@ This EULA should be read together with our [Privacy Policy](./PRIVACY_POLICY.md)
 If you are a **consumer** (an individual acquiring the App for personal use or for a business that is not acquiring the App in trade), you have statutory guarantees that the App will be of acceptable quality, fit for its purpose, and that our services will be performed with reasonable care and skill.
 
 If you are acquiring the App **in trade** (as a business purchaser within the meaning of s2 of the CGA), you agree that the guarantees under the CGA do not apply to this transaction, to the maximum extent permitted by law.
+
+For users in Australia: nothing in this EULA excludes or limits any rights you have under the Australian Consumer Law (Schedule 2 of the Competition and Consumer Act 2010 (Cth)) that cannot be lawfully excluded. Australian consumers have non-excludable guarantees that the App will be of acceptable quality and fit for its stated purpose.
 
 ---
 
@@ -292,6 +294,7 @@ If you have questions about this EULA, please contact us:
 ---
 
 **Version history:**
+- v5.2 — April 2026: Added Australian Consumer Law carve-out (Section 2).
 - v5.1 — April 2026: Corrected trial cap disclosure (10 inspections), removed iCloud auto-backup claims (future feature), fixed storage terminology, added overwrite-on-restore caveat.
 - v5.0 — March 2026: Full rewrite. Added Solo User License, CGA/FTA compliance, Apple App Store clauses, cure period, backup disclosure, dispute resolution.
 - v4.0 — March 2026: Previous version (superseded).
